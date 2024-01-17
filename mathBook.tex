@@ -1,0 +1,148 @@
+\documentclass[12pt,twoside]{book}
+
+% Page layout customization
+\usepackage{geometry}
+\geometry{margin=1in} % Adjust margins for better readability
+
+% Header and footer customization
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clear header and footer
+\renewcommand{\headrulewidth}{0pt} % Remove header rule
+\fancyhead[LE,RO]{\thepage} % Page number on outer corners
+
+% Section title customization
+%\usepackage{titlesec}
+
+
+% Table of contents customization
+\usepackage{tocloft}
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % Dots between chapters in TOC
+\renewcommand{\cftbeforechapskip}{20pt} % Increase space before chapter entries
+
+% Image inclusion
+\usepackage{graphicx}
+
+% Hyperlinks
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=blue,
+urlcolor=blue,
+citecolor=blue,
+}
+
+% Bibliography management
+\usepackage{biblatex}
+%\addbibresource{your_bibliography_file.bib} % Replace with your bibliography file
+
+% Professional-looking tables
+\usepackage{booktabs}
+
+% Customize lists
+\usepackage{enumitem}
+\setlist[enumerate]{itemsep=3pt,topsep=0pt,partopsep=0pt} % Improve spacing for lists
+
+% Mathematics packages
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{physics}
+
+% Additional math fonts (optional)
+%\usepackage{newtxtext,newtxmath}
+
+% SI units (optional)
+\usepackage{siunitx}
+
+% Code listings (if needed)
+\usepackage{listings}
+
+% Title page customization
+\usepackage{titling}
+
+% Clever referencing
+\usepackage{cleveref}
+
+% Lines (optional)
+%\usepackage{tikz}
+%\usetikzlibrary{positioning}
+
+\begin{document}
+
+\begin{titlingpage}
+\centering
+\vspace*{\fill}
+\Huge\textbf{Ace Your UTME Mathematics}\\
+\vspace{1cm}
+\Large{A Comprehensive Guide with Past Questions and Solutions}\\
+\vspace{2cm}
+\Large\textbf{By}\\
+\vspace{0.5cm}
+\Large\textbf{Ayodeji Adesegun and Jeremiah Nwafor}\\
+\vspace{\fill}
+\Large{November 2023}\\
+\vspace*{\fill}
+\end{titlingpage}
+
+\begin{frontmatter}
+\chapter*{Dedication and Acknowledgements}
+
+This work is dedicated to our families, whose unwavering support has been our greatest strength throughout this journey. Their constant encouragement and belief in our abilities have fueled our passion and perseverance in creating this resource.
+
+We would also like to express our sincere gratitude to the following individuals and institutions for their invaluable contributions:
+\begin{itemize}
+\item Our mentors and teachers, who instilled in us a love for mathematics and equipped us with the knowledge and skills needed to succeed.
+\item The examiners and administrators of the UTME, whose dedication to educational standards ensures a fair and effective assessment process.
+\item  Our colleagues and friends, who provided feedback and support throughout the development of this book.
+\item The wider academic community, whose research and publications have laid the foundation for our understanding of mathematics.
+\end{itemize}
+
+We are truly grateful for the collective effort that has made this book possible. We hope that it will be a valuable resource for students preparing for the UTME and beyond.
+
+\clearpage
+
+\tableofcontents
+
+\chapter*{Preface}
+
+Welcome to "Ace Your UTME Mathematics," a comprehensive guide designed to help you conquer the upcoming UTME Mathematics exam. This book provides you with a wealth of past questions, detailed solutions, and insightful strategies to enhance your understanding and preparation.
+
+This book is organized into chapters that follow the official UTME Mathematics syllabus, covering all key topics and subtopics. Each chapter includes a variety of past questions carefully selected to reflect the types and difficulty levels encountered in the actual exam.
+
+In addition to past questions, we have provided detailed solutions that explain the reasoning behind each step and highlight common mistakes to avoid. We encourage you to work through these solutions carefully and utilize them as learning tools to improve your problem-solving skills.
+
+Furthermore, we have incorporated valuable strategies throughout the book, offering tips and techniques to maximize your efficiency and performance on the exam. These strategies will help you manage your time effectively, approach different question types confidently, and overcome any challenges you may encounter.
+
+We are confident that "Ace Your UTME Mathematics" will be your ultimate companion on your journey to success. By diligently working through the material and utilizing the resources provided, you will gain the knowledge, skills, and confidence needed to achieve your desired score on the UTME Mathematics exam.\\
+
+Best of luck!\\
+
+Ayodeji Adesegun and Jeremiah Nwafor
+\clearpage
+\end{frontmatter}
+
+\mainmatter
+
+% Chapter organization
+\chapter{Number and Numeration}
+\section*{Questions}
+\begin{enumerate}[label=\textbf{\arabic*}.]
+\item Past question 1
+\item Past question 2
+% ... more questions ...
+\end{enumerate}
+
+
+
+% Repeat for other chapters
+\chapter{Algebra}
+\chapter{Geometry/Trigonometry}
+\include{differentiation.tex}
+\include{diff.solution.tex}
+\chapter{Combinatorics and Probability}
+\chapter{Statistics}
+
+\backmatter % Backmatter pages (e.g., bibliography, index, etc.)
+
+\printbibliography
+
+\end{document}

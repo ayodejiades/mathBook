@@ -243,7 +243,7 @@ a.0.000019 	b. 0.000035	c. 0.019	d. 0.0019	e. 0.00019
 9. 3^(2x) - 6(3^x) = 27 find x. 
 a.2 	b. -2	c. 1	d. -1	e. 3
 
-10. Find the value of the expression: (32/81)x^3 - (64/27)x^2 - (81/16)x^-3 when x = -3/4. 
+10. Find the value of the expression: (32/81){x}^{3} - (64/27){x}^{2} - (81/16)x^-3 when x = -3/4. 
 a. -13(1/2)   	b. 10(1/2)	c. 10(1/6) 	d. 3(3/8)	e. 3(3/5)
 
 11. What is the value of x satisfying the equation: 4^2x / 4^3x = 2 ? 
@@ -282,11 +282,11 @@ a. 1/(x+1) 	b. - \dfrac{1}{\sqrt {(x+1)^1/2}}	c. -1/(x+1)	d. \dfrac{1}{\sqrt {(x
 22. Simplify: ( (1/x^-1) / (1/y^-1) )^-1. 
 a. y/x 	b. (y/x)^-1	c. (1/x^-1)y	d. xy	e. ((1/x^-1)y)^-1
 
-23. Evaluate ( x^2(x^2 -1)^-1/2 ) - ( x^2 -1 )^-1/2 . 
-a. (x^2 - 1)^-1  	b. (x^2 -1)^-1/2	c. (x^2 - 1) 	d. (x^2 - 1)^1/2
-e. (x^2 - 1)^3/2
+23. Evaluate ( {x}^{2}({x}^{2} -1)^-1/2 ) - ( {x}^{2} -1 )^-1/2 . 
+a. ({x}^{2} - 1)^-1  	b. ({x}^{2} -1)^-1/2	c. ({x}^{2} - 1) 	d. ({x}^{2} - 1)^1/2
+e. ({x}^{2} - 1)^3/2
 
-24. 9^(x - 1/2) = 3x^2 find the value of x. 
+24. 9^(x - 1/2) = 3{x}^{2} find the value of x. 
 a. 1/2 	b. 2	c. 3	d. 1	e. 1/3
 
 25. Solve for x if 25^x + 3(5^x) = 4. 

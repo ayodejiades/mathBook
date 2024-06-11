@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  9 JUN 2024 18:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  11 JUN 2024 09:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -368,7 +368,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip97
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 34.
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
 
 (C:\Users\JEREMAIH\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.st
 y
@@ -1176,7 +1176,7 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \@quotelevel=\count476
 \@quotereset=\count477
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 70.
+h' as default language. on input line 72.
  (mathBook.aux (number.aux)
 (fraction.aux) (fractionSolution.aux) (algebra.aux) (indices.aux) (geometry.aux
 ) (geometrySolution.aux) (coordinate.aux) (coordinateSolution.aux)
@@ -1185,24 +1185,24 @@ h' as default language. on input line 70.
 (statistics.aux) (statisticsSolution.aux) (things.aux))
 \openout1 = `mathBook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1264,7 +1264,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 s.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring ON on input line 70.
+Package hyperref Info: Link coloring ON on input line 72.
  (mathBook.out) (mathBook.out)
 \@outlinefile=\write5
 \openout5 = `mathBook.out'.
@@ -1285,8 +1285,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'mathBook.bbl' not found.
 
 No file mathBook.bbl.
-Package biblatex Info: Reference section=0 on input line 70.
-Package biblatex Info: Reference segment=0 on input line 70.
+Package biblatex Info: Reference section=0 on input line 72.
+Package biblatex Info: Reference segment=0 on input line 72.
 
 Package siunitx Warning: Detected the "physics" package:
 (siunitx)                omitting definition of \qty.
@@ -1305,7 +1305,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 70.
+or `english'. on input line 72.
 \c@lstlisting=\count484
  [1
 
@@ -1333,12 +1333,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [3] [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
@@ -1383,7 +1383,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 518--519
 [11] [12]) [13]
 \openout2 = `fractionSolution.aux'.
 
- (fractionSolution.tex [14
+ (fractionSolution.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 5105) in paragraph at lines 15--17
+\OT1/cmr/m/n/10 Muliply $[][][]$ be-cause mul-ti-pli-ca-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+[14
 
 
 
@@ -1519,7 +1534,7 @@ Chapter 7.
 Chapter 8.
 [85]) [86]
 
-LaTeX Warning: Empty bibliography on input line 154.
+LaTeX Warning: Empty bibliography on input line 156.
 
 [87
 
@@ -1543,8 +1558,8 @@ Package logreq Info: Writing requests to 'mathBook.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42710 strings out of 474587
- 797283 string characters out of 5744277
+ 42709 strings out of 474587
+ 797274 string characters out of 5744277
  1974558 words of memory out of 5000000
  58446 multiletter control sequences out of 15000+600000
  562833 words of font info for 54 fonts, out of 8000000 for 9000
@@ -1564,10 +1579,12 @@ c/amsfonts/cm/cmr5.pfb><C:/Users/JEREMAIH/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/JEREMAIH/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/JEREMAIH/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/JEREMAIH/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on mathBook.pdf (95 pages, 1005196 bytes).
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/JE
+REMAIH/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10
+.pfb>
+Output written on mathBook.pdf (95 pages, 1016054 bytes).
 PDF statistics:
- 7595 PDF objects out of 8907 (max. 8388607)
- 5882 named destinations out of 6186 (max. 500000)
+ 7599 PDF objects out of 8907 (max. 8388607)
+ 5881 named destinations out of 6186 (max. 500000)
  325 words of extra memory for PDF output out of 10000 (max. 10000000)
 

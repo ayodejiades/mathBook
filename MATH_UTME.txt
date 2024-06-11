@@ -101,8 +101,8 @@ Number Bases
 CHAP 2
 Fractions, Decimals, Percentages appromximation, Errors
 
-1. The sum of 3 \frac {7}{8} and 1 \frac{1}{3} is less than the difference between \frac {3}{8} and 1 \frac{2}{3} by.
-a. 3 \frac{2}{3} 	b. 1 \frac{1}{2}	c. 5 \frac{1}{4}	d. 8 \frac{1}{8}	e. 0
+1. The sum of 3 \dfrac {7}{8} and 1 \dfrac{1}{3} is less than the difference between \dfrac {3}{8} and 1 \dfrac{2}{3} by.
+a. 3 \dfrac{2}{3} 	b. 1 \dfrac{1}{2}	c. 5 \dfrac{1}{4}	d. 8 \dfrac{1}{8}	e. 0
 
 2. After getting a rise of 15%, a man's new monthly salary is N345. How much per month did he earn befor the increase? 
 a. N300	b. N330	c. N293.25	d. N360	e. 396.75
@@ -113,20 +113,20 @@ a. 2050	b. 205	c. 647	d. 647	e. 6470
 4. 12 men complete a job in 9days. How many men working at the sam rate, would be required to complete the job in 6 days?. 
 a. 9	b. 8	c. 24	d. 18	e. 12
 
-5. Simplify 2 \frac{5}{12} - 1 \frac{7}{8}* \frac{6}{5}. 
-a. \frac{11}{30} 	b. \frac{5}{3}	c. \frac{1}{6}	d. \frac{13}{20}	e. \frac{9}{4}
+5. Simplify 2 \dfrac{5}{12} - 1 \dfrac{7}{8}* \dfrac{6}{5}. 
+a. \dfrac{11}{30} 	b. \dfrac{5}{3}	c. \dfrac{1}{6}	d. \dfrac{13}{20}	e. \dfrac{9}{4}
 
 6. By selling an article for N45.00 a man makes a profit of 8%. For how much should he have sold it in order to make a profit of 32%? 
 a. N59.00	b. N180.00	c. N55.00	d. N63.00	e. N42.00
 
 7. Which of the following fractions is less than one-third? 
-a. \frac{15}{46} 	b. \frac{4}{11}	c. \frac{122}{383}	d. \frac{22}{63}	e. \frac{6}{25}
+a. \dfrac{15}{46} 	b. \dfrac{4}{11}	c. \dfrac{122}{383}	d. \dfrac{22}{63}	e. \dfrac{6}{25}
 
 8. The ratio of the price of load of bread to the price of a packet of sugar in 1975 was a:x. In 1980 teh price of a loaf of bread went up by 25% and that of a packet of sugar by 10%. Their new ratio is now. 
 a. 44a:50x 	b. 55a:44x	c. 40a:44x	d. 50a:44x	e. 44a:55x
 
-9. Simplify 1 + \frac{2}{3 + \frac{4}{5+ \frac{6}{7}}}. 
-a. \frac{3}{10}	b. \frac{17}{10}	c. \frac{7}{95}	d. \frac{233}{151}	e. \frac{177}{95}
+9. Simplify 1 + \dfrac{2}{3 + \dfrac{4}{5+ \dfrac{6}{7}}}. 
+a. \dfrac{3}{10}	b. \dfrac{17}{10}	c. \dfrac{7}{95}	d. \dfrac{233}{151}	e. \dfrac{177}{95}
 
 10. Evaluate and correct of 4 decimal place 827.51 * 0.015. 
 a. 8.8415 	b. 124.1265	c. 12.4120	d. 12.4127	e. 124.1265
@@ -134,8 +134,8 @@ a. 8.8415 	b. 124.1265	c. 12.4120	d. 12.4127	e. 124.1265
 11. A micrometer is defined as one millionth of a millimeter. A length of of 12,000 micrometer may be represented as
 a. 0.00000012m	b. 0.000012m	c. 0.12m	d. 0.0000000012m	e. 0.0000012m
 
-12. The difference between 4\frac{5}{7} and 2\frac{1}{4} is greater than the sum of \frac{1}{14} and 1\frac{1}{2} by. 
-a. \frac{23}{28}	b. \frac{27}{28}	c. \frac{48}{56}	d. \frac{50}{56}	e. \frac{24}{48}
+12. The difference between 4\dfrac{5}{7} and 2\dfrac{1}{4} is greater than the sum of \dfrac{1}{14} and 1\dfrac{1}{2} by. 
+a. \dfrac{23}{28}	b. \dfrac{27}{28}	c. \dfrac{48}{56}	d. \dfrac{50}{56}	e. \dfrac{24}{48}
 
 13. When a dealer sells a bicycle for N81, he makes a profit of 8%. What did he pay for the bicycle. 
 a. N75 	b. N74.52	c. N75.52	d. N73	e. N87.48
@@ -143,8 +143,8 @@ a. N75 	b. N74.52	c. N75.52	d. N73	e. N87.48
 14. A man and wife went to by an article costing N400. The woman had 10% of the cost and the man 40% of the remainder. How much did they have altogether? 
 a. N200 	b. N184		c. N100		d. N144		e. N184
 
-15. A sum of money invested at 5% per annum simple interest amount to N285.20 after 3 years. How long will it take the same sum to amount to N434.00 at 7\frac{1}{2}% per annum simple interest? 
-a. 12years 	b. 10years	c. 7\frac{1}{2}years	d. 5years	e. 14years
+15. A sum of money invested at 5% per annum simple interest amount to N285.20 after 3 years. How long will it take the same sum to amount to N434.00 at 7\dfrac{1}{2}% per annum simple interest? 
+a. 12years 	b. 10years	c. 7\dfrac{1}{2}years	d. 5years	e. 14years
 
 16. A construction company is owned by two partners A and B and it is agreed that their profit will be divided in ratio 4:5, at the end of the year, B recieved N5,00 more than A. What is the total profit of the company for the year? 
 a. N150,000 	b. N30,000	c. N45,000	d. N25,000	e. N30,000
@@ -152,22 +152,22 @@ a. N150,000 	b. N30,000	c. N45,000	d. N25,000	e. N30,000
 17. The diameter of metal rod is meased as 23.40cm to 4 significant figures. What isthe maximum error in the measurement? 
 a. 0.05cm  	b. N.0.45cm 	c. 0.005cm	d. 0.0004	e. 0.5cm
 
-18. Simplify: 3-2/ \frac{4}{5} + \frac{1}{2}. 
-a. 1\frac{9}{10} 	b. 1\frac{3}{10}	c. -1	d. 1\frac{3}{4}	e. 1
+18. Simplify: 3-2/ \dfrac{4}{5} + \dfrac{1}{2}. 
+a. 1\dfrac{9}{10} 	b. 1\dfrac{3}{10}	c. -1	d. 1\dfrac{3}{4}	e. 1
 
-19. Given that x:y = \frac{1}{3}:\frac{1}{2} and \psi:\Theta = \frac{2}{5}:\frac{4}{7}, find x:\Theta. 
+19. Given that x:y = \dfrac{1}{3}:\dfrac{1}{2} and \psi:\Theta = \dfrac{2}{5}:\dfrac{4}{7}, find x:\Theta. 
 a. 7:15 	b. 20:21	c. 2:35		d. 3:20		e. 4:105
 
 20. If N560 is shared in the ratio 7:2:1, what is the smallest share? 
 a. N392 	b. N56.70	c. N113.40	d. N126.41	e. N87.48
 
-21. Simplify: \frac{1}{2} + \frac{1}{2 + \frac{1}{2 - \frac{1}{4 + \frac{1}{5}}}}. 
-a. -\frac{1}{3} 	b. \frac{169}{190}	c. \frac{13}{15}	d. -\frac{3}{4}	e. -\frac{14}{27}
+21. Simplify: \dfrac{1}{2} + \dfrac{1}{2 + \dfrac{1}{2 - \dfrac{1}{4 + \dfrac{1}{5}}}}. 
+a. -\dfrac{1}{3} 	b. \dfrac{169}{190}	c. \dfrac{13}{15}	d. -\dfrac{3}{4}	e. -\dfrac{14}{27}
 
-23. 22\frac{1}{2}% of the Nigerian Naira equals 17\frac{1}{10}% of a foreign currency M. What is the conversion rate of M to Naira?
-a. 1M = 2\frac{11}{57}Naira 	b. 1M = 1\frac{18}{57}Naira	c. 1M = 38\frac{1}{4}Naira	d. 1M = 384\frac{3}{4}	e. 1M = \frac{15}{57}Naira
+23. 22\dfrac{1}{2}% of the Nigerian Naira equals 17\dfrac{1}{10}% of a foreign currency M. What is the conversion rate of M to Naira?
+a. 1M = 2\dfrac{11}{57}Naira 	b. 1M = 1\dfrac{18}{57}Naira	c. 1M = 38\dfrac{1}{4}Naira	d. 1M = 384\dfrac{3}{4}	e. 1M = \dfrac{15}{57}Naira
 
-24. Divide the LCM of 48,64 and 80 by their HCF. 
+24. Divide the Lcm of 48,64 and 80 by their HCF. 
 a. 30 	b. 20	c. 60	d. 48	e. 52
 
 25. A sum of money was invested at 8% per annum simple interest. If after 4years the money amount s to N330.00, find the amount originally invested. 
@@ -176,20 +176,20 @@ a. N200 	b. N150		c. N165		d. N180		e. N250
 26. P sold his bicycle to Q at a profit of 10%. Q sold to R for N209 at a loss of 5%. How much did the bicycle cost P? 
 a. N150 	b. N205		c. N196		d. N180		e. N200
 
-27. Simplify: \frac{(\frac{2}{3} - \frac{1}{5}) - \frac{1}{3} of \frac{2}{5}}{3 - \frac{1}{1\frac{1}{9}}}
-a. \frac{1}{7} 	b. \frac{1}{5}		c. 7		d. 3		e. \frac{1}{3}
+27. Simplify: \dfrac{(\dfrac{2}{3} - \dfrac{1}{5}) - \dfrac{1}{3} of \dfrac{2}{5}}{3 - \dfrac{1}{1\dfrac{1}{9}}}
+a. \dfrac{1}{7} 	b. \dfrac{1}{5}		c. 7		d. 3		e. \dfrac{1}{3}
 
 28. Find the smallest number by which 252 can be multiplied to obtain a perfect square. 
 a. 2 	b. 5	c. 3	d. 7	e. 9
 
-29. Find the reciprocal of: \frac{\frac{2}{3}}{\frac{1}{2} + \frac{1}{3}}. 
-a. \frac{4}{5} 	b. \frac{5}{4}	c. \frac{6}{9}	d. \frac{3}{4}	e. \frac{2}{5}
+29. Find the reciprocal of: \dfrac{\dfrac{2}{3}}{\dfrac{1}{2} + \dfrac{1}{3}}. 
+a. \dfrac{4}{5} 	b. \dfrac{5}{4}	c. \dfrac{6}{9}	d. \dfrac{3}{4}	e. \dfrac{2}{5}
 
-30. Three boys shared some oranges, the first recieved \frac{1}{3} of the of the oranges, the second received \frac{2}{3} of the remainder, if the third boy received the remaining 12 oranges. How many oranges did they share?
+30. Three boys shared some oranges, the first recieved \dfrac{1}{3} of the of the oranges, the second received \dfrac{2}{3} of the remainder, if the third boy received the remaining 12 oranges. How many oranges did they share?
 a. 54 	b. 72	c. 48	d. 60	e. 42
 
 31. Udoh deposited N150.00 in the bank. At the end of 5years the simple interest on the principal was N55.00. At what rate per annum was the interest paid 
-a. 5% 	b. 7\frac{1}{3}%	c. 3\frac{1}{2}		d. 11%	e. 4\frac{2}{5}%
+a. 5% 	b. 7\dfrac{1}{3}%	c. 3\dfrac{1}{2}		d. 11%	e. 4\dfrac{2}{5}%
 
 32. A number of pencil were shared among Desmond, Florence and Kevin in ratio 2:3:5 respectively. If Desmond got 5, how many were shared out? 
 a. 15 	b. 20	c. 25	d. 30	e. 35
@@ -200,7 +200,7 @@ a. 240cm 	b. 480cm	c. 120cm	d. 480cm	e. 360cm
 34. A rectangular lawn has an area of 1815 square yards. If its length is 50metres, find it width in meters. Given that 1metres equals 1.1 yards. 
 a. 33.00 	b. 30.00	c. 39.93	d. 32.00	e. 36.45
 
-35. Reduce each number to two significant figure and then evaluate \frac{0.021741 * 1.2047}{0.023789}. 
+35. Reduce each number to two significant figure and then evaluate \dfrac{0.021741 * 1.2047}{0.023789}. 
 a. 0.8 	b. 0.9	c. 1.2	d. 1.1	e. 0.6
 
 
@@ -243,7 +243,7 @@ a.0.000019 	b. 0.000035	c. 0.019	d. 0.0019	e. 0.00019
 9. 3^(2x) - 6(3^x) = 27 find x. 
 a.2 	b. -2	c. 1	d. -1	e. 3
 
-10. Find the value of the expression: (32/81)x^3 - (64/27)x^2 - (81/16)x^-3 when x = -3/4. 
+10. Find the value of the expression: (32/81){x}^{3} - (64/27){x}^{2} - (81/16)x^-3 when x = -3/4. 
 a. -13(1/2)   	b. 10(1/2)	c. 10(1/6) 	d. 3(3/8)	e. 3(3/5)
 
 11. What is the value of x satisfying the equation: 4^2x / 4^3x = 2 ? 
@@ -277,16 +277,16 @@ a. 5/4	b. 9/4	c. 1/4	d. 9	e. 4
 a. 13 	b. 49	c. 169	d. 17	e. 7
 
 21. Simplify {x(x+1)^-1/2 - (x+1)^1/2}/ (x+1)^1/2. 
-a. 1/(x+1) 	b. - \frac{1}{\sqrt {(x+1)^1/2}}	c. -1/(x+1)	d. \frac{1}{\sqrt {(x+1)^1/2}}	e. 1/x
+a. 1/(x+1) 	b. - \dfrac{1}{\sqrt {(x+1)^1/2}}	c. -1/(x+1)	d. \dfrac{1}{\sqrt {(x+1)^1/2}}	e. 1/x
 
 22. Simplify: ( (1/x^-1) / (1/y^-1) )^-1. 
 a. y/x 	b. (y/x)^-1	c. (1/x^-1)y	d. xy	e. ((1/x^-1)y)^-1
 
-23. Evaluate ( x^2(x^2 -1)^-1/2 ) - ( x^2 -1 )^-1/2 . 
-a. (x^2 - 1)^-1  	b. (x^2 -1)^-1/2	c. (x^2 - 1) 	d. (x^2 - 1)^1/2
-e. (x^2 - 1)^3/2
+23. Evaluate ( {x}^{2}({x}^{2} -1)^-1/2 ) - ( {x}^{2} -1 )^-1/2 . 
+a. ({x}^{2} - 1)^-1  	b. ({x}^{2} -1)^-1/2	c. ({x}^{2} - 1) 	d. ({x}^{2} - 1)^1/2
+e. ({x}^{2} - 1)^3/2
 
-24. 9^(x - 1/2) = 3x^2 find the value of x. 
+24. 9^(x - 1/2) = 3{x}^{2} find the value of x. 
 a. 1/2 	b. 2	c. 3	d. 1	e. 1/3
 
 25. Solve for x if 25^x + 3(5^x) = 4. 
@@ -295,31 +295,31 @@ a. 1 or 4 	b. -4 or 0	c. 1 or -4	d. 4	e. 	1
 26. Express the product of 0.00014 and 0.011 in standard form. 
 a. 1.54 * 10^-2 	b. 1.54 * 10^-4		c. 1.54 * 10^-3		d. 1.54 * 10^-1	e. 1.54 * 10^-5.
 
-27. If \frac {(a^2b^-3c)^3/4}{a^-1b^4c^5} = a^p^qc^r, what is the value of p + 2q?
+27. If \dfrac {(a^2b^-3c)^3/4}{a^-1b^4c^5} = a^p^qc^r, what is the value of p + 2q?
 a. 5/2 	b. -10	c. -25/4	d. 25/4		e. -5/4
 
 28. Simplify: ( 3 \sqrt{(64a^3)^-1} ). 
 a. 4a 	b. 8a	c. 1/2a	d. 1/4a	e. 1/8a
 
-29. If \frac {9^(2x-1)}{27&(x+1)} = 1, find the value of x. 
+29. If \dfrac {9^(2x-1)}{27&(x+1)} = 1, find the value of x. 
 a. 8 	b. 3	c. 5	d. 4	e. 2
 
 30. Given that: \sqrt[3]{4^2x} = 16, find teh value of x. 
 a. 6 	b. 4	c. 3	d. 2	e. 1
 
-31. Simplify: (\frac {81}{16})^-3/4 * 2^-1. 
+31. Simplify: (\dfrac {81}{16})^-3/4 * 2^-1. 
 a. 1/6 	b. 3	c. 1/3	d. 1/2	e. 1/6
 
-32. Evaluate \frac {27^1/3 - 8^2/3}{16^2/4 * 2}. 
+32. Evaluate \dfrac {27^1/3 - 8^2/3}{16^2/4 * 2}. 
 a. -1/8	 	b. 21/7		c. 23/5		d. -6	e. -12/5
 
 33. Solve for x: 8x^-2 = 2/25. 
 a. 4 	b. 10	c. 1/10		d. 5/4		e. 1/4
 
-34. Simplify: \frac {3^-5n}{9^(1-n)} * 27^(n+1). 
+34. Simplify: \dfrac {3^-5n}{9^(1-n)} * 27^(n+1). 
 a. 33 	b. 35	c. 32	d. 3	e. 34
 
-35. If \frac{4^(x+3)}{16^(2x-3)} = 1
+35. If \dfrac{4^(x+3)}{16^(2x-3)} = 1
 a. -1 	b. -3	c. -1/3	d. 3	e. 1
 
 36. Express the product of 0.21 and 0.34 in standard form. 
@@ -337,7 +337,7 @@ a. 2/3 	b. 3/8	c. 3/2	d. 3/4	e. 4/3
 40. 25^-1/2 * 27^-1/3 + 121^1/2 * 625^-1/4
 a. 13 	b. 49	c. 169	d. 17	e. 7
 
-41. Simplify: \frac {3(2^(n-1)) - 4(2^(n-1))}{2^(n+1) - 2^n}
+41. Simplify: \dfrac {3(2^(n-1)) - 4(2^(n-1))}{2^(n+1) - 2^n}
 a. 2^(n+1) 	b. 2^(n-1) 	c. 1/4	d. 2^-(n+1)	e. 4
 
 42. Evaluate: 343^1/3 * 0.14^-1 * 25^-1/2
@@ -361,16 +361,16 @@ a. 2/3	b. 1/3	c. 1/2	d. 4/5	e. 8/9
 CHAP 4: Logarithms of Numbers 
 
 1. What is \log_7 (49^a) - \log_10 (0.01)? 
-a. \frac{49^a}{100} 	b. \frac{a}{2} + 2	c. 7^(2a) + 2	d. 2a + 2	e. \frac{2a}{2}
+a. \dfrac{49^a}{100} 	b. \dfrac{a}{2} + 2	c. 7^(2a) + 2	d. 2a + 2	e. \dfrac{2a}{2}
 
-2. Simplfy: \frac{\log_10 8}{\log_10 4}. 
-a. \log_10 2 	b. \log_10 4	c. \frac{3}{2}	d. \frac{3}{4}	e. 2
+2. Simplfy: \dfrac{\log_10 8}{\log_10 4}. 
+a. \log_10 2 	b. \log_10 4	c. \dfrac{3}{2}	d. \dfrac{3}{4}	e. 2
 
 3. Given log 2 = 0.69, log 3 = 1.1 and log 7 = 1.90 all to a fixed base, find log 10.5 to the same base. 
 a. 2.31 	b. 3.69		c. 10.5		d. 1.69		e. 1.03
 
 4. Simplify: 10^2 + \log_10 5. 
-a. 500 	b. 2\log_10 5	c. 10	d. 25	e. \frac{1}{2} \log_10 5
+a. 500 	b. 2\log_10 5	c. 10	d. 25	e. \dfrac{1}{2} \log_10 5
 
 5. If \log_2 y = 3 - \log_2 x, find y when x = 4. 
 a. 0 	b. 1	c. 2	d. 3	e. 8
@@ -381,7 +381,7 @@ a. -1.3010 	b. -0.6990	c. 0.02	d. 1.3010	e. 0.6990
 7. What is number whose logarithm to the base 10 is 2.3482
 a. 0.228 	b. 2.235	c. 22.37	d. 223.6	e. 0.02229
 
-8. Simplify: \frac{\log_10 8 - \log_10 4}{\log_10 4 - \log_10 2}
+8. Simplify: \dfrac{\log_10 8 - \log_10 4}{\log_10 4 - \log_10 2}
 a. \log_10 2 	b. \log_10 8	c. \log_10 4	d. 1	e. 0
 
 

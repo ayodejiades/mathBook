@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  6 MAY 2024 14:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.23)  9 JUN 2024 18:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1178,8 +1178,11 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 70.
  (mathBook.aux (number.aux)
-(fraction.aux) (algebra.aux) (indices.aux) (geometry.aux) (differentiation.aux)
-(diff.solution.aux) (combinatorics.aux) (statistics.aux))
+(fraction.aux) (fractionSolution.aux) (algebra.aux) (indices.aux) (geometry.aux
+) (geometrySolution.aux) (coordinate.aux) (coordinateSolution.aux)
+(differentiation.aux) (differentiationSolution.aux) (integration.aux)
+(integrationSolution.aux) (combinatorics.aux) (combinatoricsSolution.aux)
+(statistics.aux) (statisticsSolution.aux) (things.aux))
 \openout1 = `mathBook.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
@@ -1320,12 +1323,14 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 
 (C:\Users\JEREMAIH\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+[2
+
+])
 \tf@toc=\write6
 \openout6 = `mathBook.toc'.
 
-
-[2
+ [3] [4
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 116--117
@@ -1337,9 +1342,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-[3
-
-] [4
+[5] [6
 
 
 ]
@@ -1352,7 +1355,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.85 	\end{enumerate}
+l.84 	\end{enumerate}
                       [1
 
 
@@ -1361,7 +1364,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.206 	\item \(
+l.205 	\item \(
                {101010}_2\) [2] [3] [4] [5] [6])
 \openout2 = `fraction.aux'.
 
@@ -1378,171 +1381,172 @@ Underfull \hbox (badness 10000) in paragraph at lines 518--519
  []
 
 [11] [12]) [13]
+\openout2 = `fractionSolution.aux'.
+
+ (fractionSolution.tex [14
+
+
+
+]) [15]
 \openout2 = `algebra.aux'.
 
- (algebra.tex [14
+ (algebra.tex [16
 
 
 
 
 ]
 Chapter 3.
-[15] [16] [17] [18] [19] [20])
+[17] [18] [19] [20] [21] [22])
 \openout2 = `indices.aux'.
 
- (indices.tex [21
+ (indices.tex [23
 
 
 
-] [22] [23] [24] [25])
+] [24] [25] [26] [27])
 \openout2 = `geometry.aux'.
 
 
-(geometry.tex [26
+(geometry.tex [28
 
 
 
 
 ]
 Chapter 4.
-[27] [28] [29] [30] [31]) [32]
+[29] [30] [31] [32] [33]) [34]
 \openout2 = `geometrySolution.aux'.
 
- (geometrySolution.tex [33
+ (geometrySolution.tex [35
 
 
 
-] [34]) [35]
+] [36]) [37]
 \openout2 = `coordinate.aux'.
 
 
-(coordinate.tex [36
+(coordinate.tex [38
 
 
 
-] [37] [38] [39]) [40]
+] [39] [40] [41]) [42]
 \openout2 = `coordinateSolution.aux'.
 
- (coordinateSolution.tex [41
+ (coordinateSolution.tex [43
 
 
 
-] [42])
-[43]
+] [44])
+[45]
 \openout2 = `differentiation.aux'.
 
- (differentiation.tex [44
+ (differentiation.tex [46
 
 
 
 
 ]
 Chapter 5.
-[45] [46] [47] [48] [49] [50]) [51]
+[47] [48] [49] [50] [51] [52]) [53]
 \openout2 = `differentiationSolution.aux'.
 
- (differentiationSolution.tex [52
+ (differentiationSolution.tex [54
 
 
 
-] [53])
-[54]
+] [55])
+[56]
 \openout2 = `integration.aux'.
 
- (integration.tex [55
+ (integration.tex [57
 
 
 
-] [56] [57] [58]) [59]
+] [58] [59] [60]) [61]
 \openout2 = `integrationSolution.aux'.
 
  (integrationSolution.tex
-[60
+[62
 
 
 
-] [61]) [62]
+] [63]) [64]
 \openout2 = `combinatorics.aux'.
 
  (combinatorics.tex
 Chapter 6.
-[63
+[65
 
 
 
 
-] [64] [65] [66] [67]) [68]
+] [66] [67] [68] [69]) [70]
 \openout2 = `combinatoricsSolution.aux'.
 
- (combinatoricsSolution.tex [69
+ (combinatoricsSolution.tex [71
 
 
 
-] [70]) [71]
+] [72]) [73]
 \openout2 = `statistics.aux'.
 
 
-(statistics.tex [72
+(statistics.tex [74
 
 
 
 
 ]
 Chapter 7.
-[73] [74] [75] [76] [77]) [78]
+[75] [76] [77] [78] [79]) [80]
 \openout2 = `statisticsSolution.aux'.
 
- (statisticsSolution.tex [79
+ (statisticsSolution.tex [81
 
 
 
-] [80]) [81]
+] [82]) [83]
 \openout2 = `things.aux'.
 
 
-(things.tex [82
+(things.tex [84
 
 
 
 
 ]
 Chapter 8.
-[83]) [84]
+[85]) [86]
 
-LaTeX Warning: Empty bibliography on input line 153.
+LaTeX Warning: Empty bibliography on input line 154.
 
-[85
-
-
+[87
 
 
-] (mathBook.aux (number.aux) (fraction.aux) (algebra.aux) (indices.aux)
-(geometry.aux) (geometrySolution.aux) (coordinate.aux) (coordinateSolution.aux)
-(differentiation.aux) (differentiationSolution.aux) (integration.aux)
-(integrationSolution.aux) (combinatorics.aux) (combinatoricsSolution.aux)
-(statistics.aux) (statisticsSolution.aux) (things.aux))
+
+
+] (mathBook.aux (number.aux) (fraction.aux) (fractionSolution.aux)
+(algebra.aux) (indices.aux) (geometry.aux) (geometrySolution.aux)
+(coordinate.aux) (coordinateSolution.aux) (differentiation.aux)
+(differentiationSolution.aux) (integration.aux) (integrationSolution.aux)
+(combinatorics.aux) (combinatoricsSolution.aux) (statistics.aux)
+(statisticsSolution.aux) (things.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
-
-
-Package rerunfilecheck Warning: File `mathBook.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `mathBook.out':
-(rerunfilecheck)             Before: 26B013A3FFDC494904B09E846170FEB9;2952
-(rerunfilecheck)             After:  72F553B8BC4593FFEAA77F3A8E0D74C2;4579.
+Package rerunfilecheck Info: File `mathBook.out' has not changed.
+(rerunfilecheck)             Checksum: 6EAF1FB34DC113795683EADE35A0CD06;4681.
 Package logreq Info: Writing requests to 'mathBook.run.xml'.
 \openout1 = `mathBook.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42544 strings out of 474587
- 794431 string characters out of 5744277
+ 42710 strings out of 474587
+ 797283 string characters out of 5744277
  1974558 words of memory out of 5000000
- 58407 multiletter control sequences out of 15000+600000
+ 58446 multiletter control sequences out of 15000+600000
  562833 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,93p,683b,1289s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1561,9 +1565,9 @@ ype1/public/amsfonts/cm/cmr7.pfb><C:/Users/JEREMAIH/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/JEREMAIH/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/JEREMAIH/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on mathBook.pdf (91 pages, 980130 bytes).
+Output written on mathBook.pdf (95 pages, 1005196 bytes).
 PDF statistics:
- 7392 PDF objects out of 7423 (max. 8388607)
- 5777 named destinations out of 6186 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 7595 PDF objects out of 8907 (max. 8388607)
+ 5882 named destinations out of 6186 (max. 500000)
+ 325 words of extra memory for PDF output out of 10000 (max. 10000000)
 

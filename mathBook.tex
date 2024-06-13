@@ -50,7 +50,7 @@ citecolor=purple,
 \setlist[enumerate]{itemsep=3pt,topsep=0pt,partopsep=0pt} % Improve spacing for lists
 
 % Mathematics packages
-\usepackage{amsmath, amssymb, amsthm}
+\usepackage{amsmath, amsthm}
 \usepackage{physics}
 
 % Additional math fonts (optional)
@@ -71,6 +71,7 @@ citecolor=purple,
 % Lines (optional)
 \usepackage{tikz}
 \usetikzlibrary{positioning}
+\AtBeginDocument{\RenewCommandCopy\qty\SI}
 
 \begin{document}
 
@@ -142,7 +143,7 @@ Ayodeji Adesegun and Chimobi Nwafor
 \include{fraction.tex}
 \include{fractionSolution.tex}
 \include{algebra.tex}
-\include{algebraSolution}
+\include{algebraSolution.tex}
 \include{indices.tex}
 \include{geometry.tex}
 \include{geometrySolution.tex}

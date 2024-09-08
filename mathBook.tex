@@ -8,8 +8,6 @@
 
 
 
-
-
 % Page layout customization
 \usepackage{geometry}
 \geometry{margin=.7in} % Adjust margins for better readability
@@ -53,8 +51,9 @@ citecolor=purple,
 \setlist[enumerate]{itemsep=3pt,topsep=0pt,partopsep=0pt} % Improve spacing for lists
 
 % Mathematics packages
-\usepackage{amsmath, amssymb, amsthm}
+\usepackage{amsmath, amsthm}
 \usepackage{physics}
+\AtBeginDocument{\RenewCommandCopy\qty\SI}
 
 % Additional math fonts (optional)
 %\usepackage{newtxtext,newtxmath}
@@ -74,6 +73,7 @@ citecolor=purple,
 % Lines (optional)
 \usepackage{tikz}
 \usetikzlibrary{positioning}
+
 
 \begin{document}
 
@@ -142,11 +142,15 @@ Ayodeji Adesegun and Chimobi Nwafor
 
 % Chapter organization
 \include{number.tex}
+\include{numberSolution.tex}
 \include{fraction.tex}
 \include{fractionSolution.tex}
 \include{algebra.tex}
-\include{algebraSolution}
+\include{algebraSolution.tex}
 \include{indices.tex}
+\include{indicesSolution.tex}
+\include{logarithms.tex}
+\include{logarithmsSolution.tex}
 \include{geometry.tex}
 \include{geometrySolution.tex}
 \include{coordinate.tex}
@@ -163,9 +167,5 @@ Ayodeji Adesegun and Chimobi Nwafor
 
 \begin{backmatter} % Backmatter pages (e.g., bibliography, index, etc.)
 
-
 \end{backmatter}
-
-\printbibliography
-
 \end{document}

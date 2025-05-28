@@ -1,103 +1,658 @@
 \subsection{Solutions}
 \begin{enumerate}[label={\arabic*.}]
-    \item The minimum point can be gotten by getting the first derivative  
-    \item 
-    \item
-    \item
-    \item
-    \item 
-    \item
-    \item
-    \item 
-    \item 
-    \item 
-    \item 
-    \item
-    \item
-    \item
-    \item 
-    \item
-    \item
-    \item 
-    \item 
-    \item 
-    \item 
-    \item
-    \item
-    \item
-    \item 
-    \item
-    \item
-    \item 
-    \item 
-    \item 
-    \item 
-    \item
-    \item
-    \item
-    \item 
-    \item
-    \item
-    \item 
-    \item 
-    \item 
-    \item 
-    \item
-    \item
-    \item
-    \item 
-    \item
-    \item
-    \item 
-    \item 
-    \item 
-    \item 
-    \item
-    \item
-    \item
-    \item 
-    \item
-    \item
-    \item 
-    \item 
-    \item 
-    \item 
-    \item
-    \item
-    \item
-    \item 
-    \item
-    \item
-    \item 
-    \item 
-    \item 
-    \item 
-    \item
-    \item
-    \item
-    \item 
-    \item
-    \item
-    \item 
-    \item 
-    \item 
-    \item 
-    \item
-    \item
-    \item
-    \item 
-    \item
-    \item
-    \item 
-    \item 
-    \item 
-    \item 
-    \item
-    \item
-    \item
-    \item 
-    \item
-    \item
-    \item 
-    \item 
+  \item To find the minimum point of \(y = x^2 - 6x + 5\), we first find the derivative, which gives the slope of the curve.
+    \(\dv{y}{x} = \dv{}{x}(x^2) - \dv{}{x}(6x) + \dv{}{x}(5)\)
+    Using the power rule (\(\dv{}{x}(x^n) = nx^{n-1}\)) and that the derivative of a constant is 0:
+    \(\dv{y}{x} = 2x - 6 + 0 = 2x - 6\).
+    At a minimum (or maximum) point, the slope is 0. So, set \(\dv{y}{x} = 0\):
+    \(2x - 6 = 0 \implies 2x = 6 \implies x = 3\).
+    Substitute \(x=3\) back into the original equation for \(y\):
+    \(y = (3)^2 - 6(3) + 5 = 9 - 18 + 5 = -4\).
+    The point is \((3, -4)\).
+    To confirm it's a minimum, check the second derivative: \(\ddv{y}{x}{2} = \dv{}{x}(2x-6) = 2\). Since \(2 > 0\), it's a minimum.
+    \textbf{Answer: E}
+
+  \item For \(y = x^2 + x + 1\), find the value of \(x\) where it's minimum.
+    First derivative: \(\dv{y}{x} = \dv{}{x}(x^2) + \dv{}{x}(x) + \dv{}{x}(1) = 2x + 1 + 0 = 2x + 1\).
+    Set \(\dv{y}{x} = 0\): \(2x + 1 = 0 \implies 2x = -1 \implies x = -\dfrac{1}{2}\).
+    Second derivative: \(\ddv{y}{x}{2} = \dv{}{x}(2x+1) = 2\). Since \(2 > 0\), this \(x\) value corresponds to a minimum.
+    \textbf{Answer: B}
+
+  \item For \(y = x^2 - 2x - 3\), find the value of \(x\) where it's minimum.
+    First derivative: \(\dv{y}{x} = 2x - 2\).
+    Set \(\dv{y}{x} = 0\): \(2x - 2 = 0 \implies 2x = 2 \implies x = 1\).
+    Second derivative: \(\ddv{y}{x}{2} = 2\). Since \(2 > 0\), this \(x\) value corresponds to a minimum.
+    \textbf{Answer: A}
+
+  \item For \(y = -x^2 + 2x + 3\), find the maximum value.
+    First derivative: \(\dv{y}{x} = -2x + 2\).
+    Set \(\dv{y}{x} = 0\): \(-2x + 2 = 0 \implies -2x = -2 \implies x = 1\).
+    Substitute \(x=1\) into \(y\): \(y = -{(1)}^2 + 2(1) + 3 = -1 + 2 + 3 = 4\).
+    Second derivative: \(\ddv{y}{x}{2} = -2\). Since \(-2 < 0\), this is a maximum. The maximum value is 4.
+    \textbf{Answer: D}
+
+  \item For \(y = 3x^2 - x^3\), find the maximum value.
+    First derivative: \(\dv{y}{x} = 6x - 3x^2\).
+    Set \(\dv{y}{x} = 0\): \(6x - 3x^2 = 0 \implies 3x(2 - x) = 0\).
+    This gives \(x=0\) or \(x=2\).
+    Second derivative: \(\ddv{y}{x}{2} = 6 - 6x\).
+    At \(x=0\): \(\ddv{y}{x}{2} = 6 - 6(0) = 6 > 0\) (minimum). Value: \(y(0)=0\).
+    At \(x=2\): \(\ddv{y}{x}{2} = 6 - 6(2) = 6 - 12 = -6 < 0\) (maximum). Value: \(y(2) = 3(2)^2 - (2)^3 = 3(4) - 8 = 12 - 8 = 4\).
+    The maximum value is 4.
+    \textbf{Answer: B}
+
+  \item For \(y = x^3 - 3x + 1\), find the minimum value.
+    First derivative: \(\dv{y}{x} = 3x^2 - 3\).
+    Set \(\dv{y}{x} = 0\): \(3x^2 - 3 = 0 \implies 3x^2 = 3 \implies x^2 = 1 \implies x = \pm 1\).
+    Second derivative: \(\ddv{y}{x}{2} = 6x\).
+    At \(x=1\): \(\ddv{y}{x}{2} = 6(1) = 6 > 0\) (minimum). Value: \(y(1) = (1)^3 - 3(1) + 1 = 1 - 3 + 1 = -1\).
+    At \(x=-1\): \(\ddv{y}{x}{2} = 6(-1) = -6 < 0\) (maximum). Value: \(y(-1) = (-1)^3 - 3(-1) + 1 = -1 + 3 + 1 = 3\).
+    The minimum value is -1.
+    \textbf{Answer: A}
+
+  \item For \(f(x) = 2x^3 - x^2 - 4x + 4\), find \(x\) for maximum value.
+    First derivative: \(f'(x) = 6x^2 - 2x - 4\).
+    Set \(f'(x) = 0\): \(6x^2 - 2x - 4 = 0\). Divide by 2: \(3x^2 - x - 2 = 0\).
+    Factor: \((3x+2)(x-1) = 0\). So \(x = -\dfrac{2}{3}\) or \(x = 1\).
+    Second derivative: \(f''(x) = 12x - 2\).
+    At \(x = -\dfrac{2}{3}\): \(f''(-\frac{2}{3}) = 12(-\frac{2}{3}) - 2 = -8 - 2 = -10 < 0\) (maximum).
+    At \(x = 1\): \(f''(1) = 12(1) - 2 = 10 > 0\) (minimum).
+    The value of \(x\) for maximum is \(-\dfrac{2}{3}\).
+    \textbf{Answer: D}
+
+  \item For \(f(x) = 3x^3 - 9x^2\), find \(x\) for minimum value.
+    First derivative: \(f'(x) = 9x^2 - 18x\).
+    Set \(f'(x) = 0\): \(9x^2 - 18x = 0 \implies 9x(x - 2) = 0\).
+    So \(x=0\) or \(x=2\).
+    Second derivative: \(f''(x) = 18x - 18\).
+    At \(x=0\): \(f''(0) = 18(0) - 18 = -18 < 0\) (maximum).
+    At \(x=2\): \(f''(2) = 18(2) - 18 = 36 - 18 = 18 > 0\) (minimum).
+    The value of \(x\) for minimum is \(2\).
+    \textbf{Answer: A}
+
+  \item For \(f(x) = 2 + x - x^2\), find the maximum value.
+    First derivative: \(f'(x) = 1 - 2x\).
+    Set \(f'(x) = 0\): \(1 - 2x = 0 \implies 2x = 1 \implies x = \dfrac{1}{2}\).
+    Substitute \(x=\dfrac{1}{2}\) into \(f(x)\): \(f(\frac{1}{2}) = 2 + \frac{1}{2} - (\frac{1}{2})^2 = 2 + \frac{1}{2} - \frac{1}{4} = \frac{8+2-1}{4} = \frac{9}{4}\).
+    Second derivative: \(f''(x) = -2\). Since \(-2 < 0\), this is a maximum. The maximum value is \(\dfrac{9}{4}\).
+    \textbf{Answer: A}
+
+  \item For \(y = 1 - 2x - 3x^2\), find the maximum value.
+    First derivative: \(\dv{y}{x} = -2 - 6x\).
+    Set \(\dv{y}{x} = 0\): \(-2 - 6x = 0 \implies -6x = 2 \implies x = -\dfrac{2}{6} = -\dfrac{1}{3}\).
+    Substitute \(x=-\dfrac{1}{3}\) into \(y\): \(y = 1 - 2(-\frac{1}{3}) - 3(-\frac{1}{3})^2 = 1 + \frac{2}{3} - 3(\frac{1}{9}) = 1 + \frac{2}{3} - \frac{1}{3} = 1 + \frac{1}{3} = \dfrac{4}{3}\).
+    Second derivative: \(\ddv{y}{x}{2} = -6\). Since \(-6 < 0\), this is a maximum. The maximum value is \(\dfrac{4}{3}\).
+    \textbf{Answer: A}
+
+  \item For \(y = x^2 - 6x + 8\), find the minimum value.
+    First derivative: \(\dv{y}{x} = 2x - 6\).
+    Set \(\dv{y}{x} = 0\): \(2x - 6 = 0 \implies x = 3\).
+    Substitute \(x=3\) into \(y\): \(y = (3)^2 - 6(3) + 8 = 9 - 18 + 8 = -1\).
+    Second derivative: \(\ddv{y}{x}{2} = 2\). Since \(2 > 0\), this is a minimum. The minimum value is \(-1\).
+    \textbf{Answer: D}
+
+  \item For \(f(x) = x^3 - 12x + 11\), find the maximum value.
+    First derivative: \(f'(x) = 3x^2 - 12\).
+    Set \(f'(x) = 0\): \(3x^2 - 12 = 0 \implies 3x^2 = 12 \implies x^2 = 4 \implies x = \pm 2\).
+    Second derivative: \(f''(x) = 6x\).
+    At \(x=2\): \(f''(2) = 6(2) = 12 > 0\) (minimum). Value: \(f(2) = (2)^3 - 12(2) + 11 = 8 - 24 + 11 = -5\).
+    At \(x=-2\): \(f''(-2) = 6(-2) = -12 < 0\) (maximum). Value: \(f(-2) = (-2)^3 - 12(-2) + 11 = -8 + 24 + 11 = 16 + 11 = 27\).
+    The maximum value is 27.
+    \textbf{Answer: D}
+
+  \item For \(y = 1 + hx - 3x^2\), the maximum value is 13. Find \(h\).
+    First derivative: \(\dv{y}{x} = h - 6x\).
+    Set \(\dv{y}{x} = 0\): \(h - 6x = 0 \implies x = \dfrac{h}{6}\).
+    This \(x\) value gives the maximum. Substitute it into \(y\) and set \(y=13\):
+    \(13 = 1 + h(\frac{h}{6}) - 3(\frac{h}{6})^2\)
+    \(13 = 1 + \frac{h^2}{6} - 3(\frac{h^2}{36}) = 1 + \frac{h^2}{6} - \frac{h^2}{12}\)
+    \(12 = \frac{2h^2 - h^2}{12} = \frac{h^2}{12}\).
+    \(h^2 = 12 \times 12 = 144\).
+    \(h = \pm \sqrt{144} = \pm 12\).
+    Second derivative: \(\ddv{y}{x}{2} = -6\). This is negative, confirming a maximum for any \(h \neq 0\).
+    Given options are positive.
+    \textbf{Answer: C} (assuming h is positive, or options mean \(|h|\))
+
+  \item Profit \(P(x) = 10x - x^2\). Maximize profit.
+    First derivative: \(P'(x) = 10 - 2x\).
+    Set \(P'(x) = 0\): \(10 - 2x = 0 \implies 2x = 10 \implies x = 5\).
+    Second derivative: \(P''(x) = -2\). Since \(-2 < 0\), this is a maximum.
+    Number of bags for maximum profit is 5.
+    \textbf{Answer: B}
+
+  \item For \(y = x^3 - x\), find \(x\) for minimum value.
+    First derivative: \(\dv{y}{x} = 3x^2 - 1\).
+    Set \(\dv{y}{x} = 0\): \(3x^2 - 1 = 0 \implies 3x^2 = 1 \implies x^2 = \dfrac{1}{3} \implies x = \pm \dfrac{1}{\sqrt{3}} = \pm \dfrac{\sqrt{3}}{3}\).
+    Second derivative: \(\ddv{y}{x}{2} = 6x\).
+    At \(x = \dfrac{\sqrt{3}}{3}\): \(\ddv{y}{x}{2} = 6(\frac{\sqrt{3}}{3}) = 2\sqrt{3} > 0\) (minimum).
+    At \(x = -\dfrac{\sqrt{3}}{3}\): \(\ddv{y}{x}{2} = 6(-\frac{\sqrt{3}}{3}) = -2\sqrt{3} < 0\) (maximum).
+    The value of \(x\) for minimum is \(\dfrac{\sqrt{3}}{3}\).
+    \textbf{Answer: A}
+
+  \item For \(f(x) = x^2 - 2x - 3\), find the least value and corresponding \(x\).
+    First derivative: \(f'(x) = 2x - 2\).
+    Set \(f'(x) = 0\): \(2x - 2 = 0 \implies x = 1\).
+    Substitute \(x=1\) into \(f(x)\): \(f(1) = (1)^2 - 2(1) - 3 = 1 - 2 - 3 = -4\).
+    Second derivative: \(f''(x) = 2\). Since \(2 > 0\), this is a minimum (least value).
+    Least value is \(f(x) = -4\) at \(x=1\).
+    \textbf{Answer: C}
+
+  \item If \(y = 3 \cos\left(\dfrac{x}{3}\right)\), find \(\dv{y}{x}\) when \(x = \dfrac{3\pi}{2}\).
+    Use chain rule. Let \(u = \dfrac{x}{3}\), so \(\dv{u}{x} = \dfrac{1}{3}\).
+    Then \(y = 3\cos(u)\), so \(\dv{y}{u} = -3\sin(u)\).
+    \(\dv{y}{x} = \dv{y}{u} \cdot \dv{u}{x} = -3\sin(u) \cdot \dfrac{1}{3} = -\sin(u) = -\sin\left(\dfrac{x}{3}\right)\).
+    When \(x = \dfrac{3\pi}{2}\):
+    \(\dv{y}{x} = -\sin\left(\dfrac{1}{3} \cdot \dfrac{3\pi}{2}\right) = -\sin\left(\dfrac{\pi}{2}\right)\).
+    Since \(\sin\left(\dfrac{\pi}{2}\right) = 1\), then \(\dv{y}{x} = -1\).
+    \textbf{Answer: A}
+
+  \item Rate of change of volume \(V = \frac{2}{3}\pi r^3\) of a hemisphere with respect to its radius \(r\), when \(r=2\). This is \(\dv{V}{r}\).
+    \(\dv{V}{r} = \dv{}{r}\left(\frac{2}{3}\pi r^3\right) = \frac{2}{3}\pi \cdot (3r^2) = 2\pi r^2\).
+    When \(r=2\): \(\dv{V}{r} = 2\pi (2)^2 = 2\pi(4) = 8\pi\).
+    \textbf{Answer: C}
+
+  \item If \(y = (1-2x)^3\), find \(\dv{y}{x}\) at \(x = -1\).
+    Use chain rule. Let \(u = 1-2x\), so \(\dv{u}{x} = -2\).
+    Then \(y = u^3\), so \(\dv{y}{u} = 3u^2\).
+    \(\dv{y}{x} = \dv{y}{u} \cdot \dv{u}{x} = 3u^2 \cdot (-2) = -6u^2 = -6(1-2x)^2\).
+    At \(x = -1\):
+    \(\dv{y}{x} = -6(1-2(-1))^2 = -6(1+2)^2 = -6(3)^2 = -6(9) = -54\).
+    \textbf{Answer: D}
+
+  \item Find the derivative of \(y = \sin(2x^3+3x-4)\).
+    Use chain rule. Let \(u = 2x^3+3x-4\), so \(\dv{u}{x} = 6x^2+3\).
+    Then \(y = \sin(u)\), so \(\dv{y}{u} = \cos(u)\).
+    \(\dv{y}{x} = \dv{y}{u} \cdot \dv{u}{x} = \cos(u) \cdot (6x^2+3) = (6x^2+3)\cos(2x^3+3x-4)\).
+    \textbf{Answer: D}
+
+  \item Radius \(r\) increases at \(0.5 \text{ cm/sec}\) (\(\dv{r}{t} = 0.5\)). Rate of area \(A\) increase (\(\dv{A}{t}\)) when \(r=6 \text{ cm}\). Area of disc \(A = \pi r^2\).
+    \(\dv{A}{r} = 2\pi r\).
+    Using chain rule: \(\dv{A}{t} = \dv{A}{r} \cdot \dv{r}{t} = (2\pi r) \cdot (0.5) = \pi r\).
+    When \(r=6\): \(\dv{A}{t} = \pi (6) = 6\pi \text{ cm}^2/\text{sec}\).
+    \textbf{Answer: C}
+
+  \item If \(y = \cos x\), find \(\dv{y}{x}\). This is a standard derivative.
+    \(\dv{y}{x} = -\sin x\).
+    \textbf{Answer: B}
+
+  \item Differentiate \(y = (\cos \theta - \sin \theta)^2\) with respect to \(\theta\).
+    Expand first: \(y = \cos^2 \theta - 2\cos \theta \sin \theta + \sin^2 \theta\).
+    Since \(\cos^2 \theta + \sin^2 \theta = 1\) and \(2\cos \theta \sin \theta = \sin 2\theta\):
+    \(y = 1 - \sin 2\theta\).
+    Now differentiate: \(\dv{y}{d\theta} = \dv{}{d\theta}(1) - \dv{}{d\theta}(\sin 2\theta)\).
+    \(\dv{y}{d\theta} = 0 - (2\cos 2\theta)\) (using chain rule for \(\sin 2\theta\)).
+    \(\dv{y}{d\theta} = -2\cos 2\theta\).
+    \textbf{Answer: C}
+
+  \item Differentiate \(y = \left(x^2 - \dfrac{1}{x}\right)^2\) with respect to \(x\).
+    Expand first: \(y = (x^2)^2 - 2(x^2)\left(\dfrac{1}{x}\right) + \left(\dfrac{1}{x}\right)^2 = x^4 - 2x + \dfrac{1}{x^2} = x^4 - 2x + x^{-2}\).
+    Differentiate: \(\dv{y}{x} = \dv{}{x}(x^4) - \dv{}{x}(2x) + \dv{}{x}(x^{-2})\).
+    \(\dv{y}{x} = 4x^3 - 2 + (-2)x^{-3} = 4x^3 - 2 - \dfrac{2}{x^3}\).
+    \textbf{Answer: B}
+
+  \item Curve \(y = 2x^2 - 2x + 3\) has gradient (slope) \(2\). Find point \((x,y)\).
+    Gradient is \(\dv{y}{x} = \dv{}{x}(2x^2 - 2x + 3) = 4x - 2\).
+    Set gradient to 2: \(4x - 2 = 2 \implies 4x = 4 \implies x = 1\).
+    Substitute \(x=1\) into \(y\): \(y = 2(1)^2 - 2(1) + 3 = 2 - 2 + 3 = 3\).
+    The point is \((1,3)\).
+    \textbf{Answer: A}
+
+  \item For \(y = x^2 - 4x + 3\), find \(x\) where tangent is parallel to x-axis (slope is 0).
+    \(\dv{y}{x} = 2x - 4\).
+    Set \(\dv{y}{x} = 0\): \(2x - 4 = 0 \implies 2x = 4 \implies x = 2\).
+    \textbf{Answer: C}
+
+  \item Differentiate \(y = \dfrac{6x^3 - 5x^2 + 1}{3x^2}\).
+    Simplify first: \(y = \dfrac{6x^3}{3x^2} - \dfrac{5x^2}{3x^2} + \dfrac{1}{3x^2} = 2x - \dfrac{5}{3} + \dfrac{1}{3}x^{-2}\).
+    \(\dv{y}{x} = \dv{}{x}(2x) - \dv{}{x}\left(\dfrac{5}{3}\right) + \dv{}{x}\left(\dfrac{1}{3}x^{-2}\right)\).
+    \(\dv{y}{x} = 2 - 0 + \dfrac{1}{3}(-2)x^{-3} = 2 - \dfrac{2}{3x^3}\).
+    \textbf{Answer: A}
+
+  \item If \(y = (1+x)^2\), find \(\dv{y}{x}\).
+    Method 1 (Chain Rule): Let \(u = 1+x\), \(\dv{u}{x} = 1\). \(y=u^2\), \(\dv{y}{u}=2u\).
+    \(\dv{y}{x} = 2u \cdot 1 = 2(1+x) = 2+2x\).
+    Method 2 (Expand): \(y = 1 + 2x + x^2\).
+    \(\dv{y}{x} = 0 + 2 + 2x = 2+2x\).
+    \textbf{Answer: C}
+
+  \item Differentiate \(y = 3x^3 + 2x^2 + 3x + 1\).
+    \(\dv{y}{x} = \dv{}{x}(3x^3) + \dv{}{x}(2x^2) + \dv{}{x}(3x) + \dv{}{x}(1)\).
+    \(\dv{y}{x} = 3(3x^2) + 2(2x) + 3(1) + 0 = 9x^2 + 4x + 3\).
+    \textbf{Answer: A}
+
+  \item Differentiate \(y = \dfrac{2}{3}x^3 - \dfrac{4}{x} = \dfrac{2}{3}x^3 - 4x^{-1}\).
+    \(\dv{y}{x} = \dv{}{x}\left(\dfrac{2}{3}x^3\right) - \dv{}{x}(4x^{-1})\).
+    \(\dv{y}{x} = \dfrac{2}{3}(3x^2) - 4(-1)x^{-2} = 2x^2 + 4x^{-2} = 2x^2 + \dfrac{4}{x^2}\).
+    \textbf{Answer: A}
+
+  \item Find the derivative of \(y = \dfrac{\sin x}{\cos x}\).
+    This is \(y = \tan x\). The derivative of \(\tan x\) is \(\sec^2 x\).
+    Alternatively, use quotient rule: \(u=\sin x, u'=\cos x\); \(v=\cos x, v'=-\sin x\).
+    \(\dv{y}{x} = \dfrac{(\cos x)(\cos x) - (\sin x)(-\sin x)}{(\cos x)^2} = \dfrac{\cos^2 x + \sin^2 x}{\cos^2 x} = \dfrac{1}{\cos^2 x} = \sec^2 x\).
+    \textbf{Answer: C}
+
+  \item If \(y = x^2 - 3x + 4\), find \(\dv{y}{x}\) at \(x=5\).
+    \(\dv{y}{x} = 2x - 3\).
+    At \(x=5\): \(\dv{y}{x} = 2(5) - 3 = 10 - 3 = 7\).
+    \textbf{Answer: B}
+
+  \item If \(y = 2x\cos(2x) - \sin(2x)\), find \(\dv{y}{x}\) when \(x = \dfrac{\pi}{2}\).
+    For the term \(2x\cos(2x)\), use product rule: \(u=2x, u'=2\); \(v=\cos(2x), v'=-2\sin(2x)\).
+    Derivative of \(2x\cos(2x)\) is \((2)\cos(2x) + (2x)(-2\sin(2x)) = 2\cos(2x) - 4x\sin(2x)\).
+    Derivative of \(\sin(2x)\) is \(2\cos(2x)\).
+    So, \(\dv{y}{x} = (2\cos(2x) - 4x\sin(2x)) - 2\cos(2x) = -4x\sin(2x)\).
+    When \(x = \dfrac{\pi}{2}\): \(\dv{y}{x} = -4\left(\dfrac{\pi}{2}\right)\sin\left(2 \cdot \dfrac{\pi}{2}\right) = -2\pi \sin(\pi)\).
+    Since \(\sin(\pi) = 0\), \(\dv{y}{x} = -2\pi(0) = 0\).
+    \textbf{Answer: A}
+
+  \item If \(y = 3\cos(4x)\), find \(\dv{y}{x}\).
+    Use chain rule: Let \(u=4x, \dv{u}{x}=4\). \(y=3\cos u, \dv{y}{u}=-3\sin u\).
+    \(\dv{y}{x} = (-3\sin u)(4) = -12\sin(4x)\).
+    \textbf{Answer: C}
+
+  \item Find the derivative of \(y = (2+3x)(1-x)\).
+    Method 1 (Product Rule): \(u=2+3x, u'=3\); \(v=1-x, v'=-1\).
+    \(\dv{y}{x} = u'v + uv' = (3)(1-x) + (2+3x)(-1) = 3 - 3x - 2 - 3x = 1 - 6x\).
+    Method 2 (Expand): \(y = 2(1-x) + 3x(1-x) = 2 - 2x + 3x - 3x^2 = 2 + x - 3x^2\).
+    \(\dv{y}{x} = 0 + 1 - 6x = 1 - 6x\).
+    \textbf{Answer: B}
+
+  \item Find \(\dv{y}{x}\) if \(y = -3x^3 + 2x^2 - 3x + 1\).
+    \(\dv{y}{x} = -3(3x^2) + 2(2x) - 3(1) + 0 = -9x^2 + 4x - 3\).
+    \textbf{Answer: B}
+
+  \item If \(y = 2x^3 + 6x^2 + 6x + 1\), find \(\dv{y}{x}\).
+    \(\dv{y}{x} = 2(3x^2) + 6(2x) + 6(1) + 0 = 6x^2 + 12x + 6\).
+    \textbf{Answer: C}
+
+  \item Find the derivative of \(y = \left(\dfrac{1}{3}x + 6\right)^2\).
+    Use chain rule: Let \(u = \dfrac{1}{3}x + 6\), \(\dv{u}{x} = \dfrac{1}{3}\). \(y=u^2, \dv{y}{u}=2u\).
+    \(\dv{y}{x} = (2u)\left(\dfrac{1}{3}\right) = \dfrac{2}{3}u = \dfrac{2}{3}\left(\dfrac{1}{3}x + 6\right)\).
+    \textbf{Answer: B}
+
+  \item If \(y = x^2 - 3x + 4\), find \(\dv{y}{x}\) at \(x=2\).
+    \(\dv{y}{x} = 2x - 3\).
+    At \(x=2\): \(\dv{y}{x} = 2(2) - 3 = 4 - 3 = 1\).
+    \textbf{Answer: B}
+
+  \item If \(y = x^2 + \sqrt{x} = x^2 + x^{1/2}\), find \(\dv{y}{x}\).
+    \(\dv{y}{x} = 2x + \dfrac{1}{2}x^{1/2 - 1} = 2x + \dfrac{1}{2}x^{-1/2}\).
+    \textbf{Answer: D}
+
+  \item Find \(\dv{y}{x}\) if \(y = \dfrac{2}{3}x^3 - \dfrac{4}{x} = \dfrac{2}{3}x^3 - 4x^{-1}\).
+    \(\dv{y}{x} = \dfrac{2}{3}(3x^2) - 4(-1)x^{-2} = 2x^2 + 4x^{-2} = 2x^2 + \dfrac{4}{x^2}\).
+    (This is a repeat of question 30, already answered as A based on options there. The options here are different, matching this solution.)
+    The options for question 30 were: A. \(2x^2 + \frac{4}{x^2}\), B. \(2x^2 - \frac{4}{x}\), C. \(3x^2 - \frac{4}{x}\), D. \(3x^2 + \frac{4}{x^2}\).
+    The options for this question 41 are: A. \(3x^2 - \frac{4}{x}\), B. \(3x^2 + \frac{4}{x^2}\), C. \(2x^2 - \frac{4}{x}\), D. \(2x^2 + \frac{4}{x^2}\).
+    The correct derivative is \(2x^2 + \dfrac{4}{x^2}\).
+    \textbf{Answer: D} (for Q41 based on its options)
+
+  \item If \(y = \cos(3x)\), find \(\dv{y}{x}\).
+    Chain rule: Let \(u=3x, \dv{u}{x}=3\). \(y=\cos u, \dv{y}{u}=-\sin u\).
+    \(\dv{y}{x} = (-\sin u)(3) = -3\sin(3x)\).
+    \textbf{Answer: D}
+
+  \item Find \(\dv{y}{x}\) if \(y = \cos x\). (Repeat of Q22)
+    \(\dv{y}{x} = -\sin x\).
+    \textbf{Answer: B}
+
+  \item Find the slope of \(y = 2x^2 + 5x - 3\) at \((1,4)\).
+    Slope is \(\dv{y}{x} = 4x + 5\).
+    At \(x=1\) (from the point \((1,4)\)): slope \(= 4(1) + 5 = 9\).
+    (Check y-coordinate: \(y(1) = 2(1)^2+5(1)-3 = 2+5-3=4\). Point is on curve.)
+    \textbf{Answer: D}
+
+  \item Derivative of \(y = \sin^2(5x) = (\sin(5x))^2\).
+    Chain rule: Let \(u = \sin(5x)\). Then \(y=u^2\), so \(\dv{y}{u}=2u\).
+    For \(u=\sin(5x)\), let \(v=5x, \dv{v}{x}=5\). \(u=\sin v, \dv{u}{dv}=\cos v\).
+    So \(\dv{u}{x} = \cos(5x) \cdot 5 = 5\cos(5x)\).
+    \(\dv{y}{x} = \dv{y}{u} \cdot \dv{u}{x} = 2u \cdot 5\cos(5x) = 2\sin(5x) \cdot 5\cos(5x) = 10\sin(5x)\cos(5x)\).
+    (This can also be written as \(5\sin(10x)\)).
+    \textbf{Answer: D}
+
+  \item Slope of tangent to \(y = 3x^2 - 2x + 5\) at \((1,6)\).
+    \(\dv{y}{x} = 6x - 2\).
+    At \(x=1\): slope \(= 6(1) - 2 = 4\).
+    (Check y-coordinate: \(y(1) = 3(1)^2-2(1)+5 = 3-2+5=6\). Point is on curve.)
+    \textbf{Answer: B}
+
+  \item Gradient of \(y = 2kx^2 + x + 1\) at \(x=1\) is 9. Find \(k\).
+    Gradient \(\dv{y}{x} = 4kx + 1\).
+    At \(x=1\), gradient is \(4k(1) + 1 = 4k+1\).
+    Given this is 9: \(4k+1 = 9 \implies 4k = 8 \implies k=2\).
+    \textbf{Answer: A}
+
+  \item Distance \(s = t^3 - t^2 - t + 5\). Minimum distance for \(t \ge 0\).
+    Velocity \(\dv{s}{t} = 3t^2 - 2t - 1\).
+    Set \(\dv{s}{t}=0\): \(3t^2 - 2t - 1 = 0 \implies (3t+1)(t-1)=0\).
+    Solutions are \(t = -\frac{1}{3}\) or \(t=1\). Since \(t \ge 0\), consider \(t=1\).
+    Acceleration \(\ddv{s}{t}{2} = 6t - 2\).
+    At \(t=1\), \(\ddv{s}{t}{2} = 6(1)-2 = 4 > 0\), so \(t=1\) is a local minimum.
+    Value at \(t=1\): \(s(1) = 1^3 - 1^2 - 1 + 5 = 1-1-1+5 = 4\).
+    Check boundary \(t=0\): \(s(0) = 0^3 - 0^2 - 0 + 5 = 5\).
+    The minimum distance is 4 cm.
+    \textbf{Answer: B}
+
+  \item Differentiate \(y = (2x+5)^2(x-4)\).
+    Product rule: \(u=(2x+5)^2, v=x-4\).
+    For \(u\): use chain rule. Let \(w=2x+5, w'=2\). \(u=w^2, u_w'=2w\). So \(u' = 2(2x+5)(2) = 4(2x+5)\).
+    For \(v\): \(v'=1\).
+    \(\dv{y}{x} = u'v + uv' = 4(2x+5)(x-4) + (2x+5)^2(1)\).
+    Factor out \((2x+5)\): \((2x+5)[4(x-4) + (2x+5)]\).
+    \(= (2x+5)[4x - 16 + 2x + 5] = (2x+5)(6x - 11)\).
+    \textbf{Answer: C}
+
+  \item Rate of change of volume \(V=\frac{4}{3}\pi r^3\) of a sphere wrt radius \(r\), when \(r=1\). This is \(\dv{V}{r}\).
+    \(\dv{V}{r} = \frac{4}{3}\pi (3r^2) = 4\pi r^2\).
+    When \(r=1\): \(\dv{V}{r} = 4\pi (1)^2 = 4\pi\).
+    \textbf{Answer: C}
+
+  \item If \(y = 2x\cos(2x) - \sin(2x)\), find \(\dv{y}{x}\) when \(x = \dfrac{\pi}{4}\).
+    We found in Q33 that \(\dv{y}{x} = -4x\sin(2x)\).
+    When \(x = \dfrac{\pi}{4}\): \(\dv{y}{x} = -4\left(\dfrac{\pi}{4}\right)\sin\left(2 \cdot \dfrac{\pi}{4}\right) = -\pi \sin\left(\dfrac{\pi}{2}\right)\).
+    Since \(\sin\left(\dfrac{\pi}{2}\right) = 1\), \(\dv{y}{x} = -\pi(1) = -\pi\).
+    \textbf{Answer: C}
+
+  \item Differentiate \(y = \dfrac{x}{\cos x}\).
+    Quotient rule: \(u=x, u'=1\); \(v=\cos x, v'=-\sin x\).
+    \(\dv{y}{x} = \dfrac{(1)(\cos x) - (x)(-\sin x)}{(\cos x)^2} = \dfrac{\cos x + x\sin x}{\cos^2 x}\).
+    Split the fraction: \(\dfrac{\cos x}{\cos^2 x} + \dfrac{x\sin x}{\cos^2 x} = \dfrac{1}{\cos x} + x \dfrac{\sin x}{\cos x} \dfrac{1}{\cos x}\).
+    \(= \sec x + x \tan x \sec x\).
+    \textbf{Answer: D}
+
+  \item If \(y = 243(4x+5)^{-2}\), find \(\dv{y}{x}\) when \(x=1\).
+    Chain rule: Let \(u=4x+5, \dv{u}{x}=4\). \(y=243u^{-2}, \dv{y}{u}=243(-2)u^{-3} = -486u^{-3}\).
+    \(\dv{y}{x} = (-486u^{-3})(4) = -1944(4x+5)^{-3} = \dfrac{-1944}{(4x+5)^3}\).
+    When \(x=1\): \(\dv{y}{x} = \dfrac{-1944}{(4(1)+5)^3} = \dfrac{-1944}{(9)^3} = \dfrac{-1944}{729}\).
+    \(1944 / 729 = (8 \times 243) / (3 \times 243) = 8/3\).
+    So \(\dv{y}{x} = -\dfrac{8}{3}\).
+    \textbf{Answer: C}
+
+  \item Derivative of \(y = t^2 \sin(3t-5)\) wrt \(t\).
+    Product rule: \(u=t^2, u'=2t\); \(v=\sin(3t-5)\).
+    For \(v\), chain rule: let \(w=3t-5, w'=3\). \(v=\sin w, v_w'=\cos w\). So \(v'=3\cos(3t-5)\).
+    \(\dv{y}{dt} = u'v + uv' = (2t)\sin(3t-5) + (t^2)(3\cos(3t-5))\).
+    \(= 2t\sin(3t-5) + 3t^2\cos(3t-5)\).
+    \textbf{Answer: A}
+
+  \item Circle radius \(r=5\) cm. \(\dv{r}{t} = 0.2 \text{ cm/s}\). Increase in area \(\dv{A}{t}\).
+    \(A = \pi r^2\). \(\dv{A}{r} = 2\pi r\).
+    \(\dv{A}{t} = \dv{A}{r} \cdot \dv{r}{t} = (2\pi r)(0.2)\).
+    When \(r=5\): \(\dv{A}{t} = 2\pi(5)(0.2) = 10\pi(0.2) = 2\pi\).
+    \textbf{Answer: B}
+
+  \item Rectangle of greatest area with fixed perimeter \(p\).
+    Let length be \(l\) and width be \(w\). Perimeter \(p = 2(l+w)\), so \(l+w = p/2\). Thus \(w = p/2 - l\).
+    Area \(A = lw = l(p/2 - l) = \dfrac{p}{2}l - l^2\).
+    To maximize area, \(\dv{A}{dl} = \dfrac{p}{2} - 2l\).
+    Set \(\dv{A}{dl}=0\): \(\dfrac{p}{2} - 2l = 0 \implies 2l = \dfrac{p}{2} \implies l = \dfrac{p}{4}\).
+    Then \(w = \dfrac{p}{2} - l = \dfrac{p}{2} - \dfrac{p}{4} = \dfrac{p}{4}\).
+    So it's a square with sides \(\dfrac{p}{4}\).
+    \(\ddv{A}{l} = -2 < 0\), confirming maximum.
+    \textbf{Answer: C}
+
+  \item Gradient is \(2x+7\). Curve passes through \((2,0)\). Find equation.
+    Gradient \(\dv{y}{x} = 2x+7\).
+    Integrate to find \(y\): \(y = \int (2x+7) dx = x^2 + 7x + C\), where C is constant of integration.
+    Curve passes through \((2,0)\), so substitute \(x=2, y=0\):
+    \(0 = (2)^2 + 7(2) + C \implies 0 = 4 + 14 + C \implies 0 = 18 + C \implies C = -18\).
+    Equation is \(y = x^2 + 7x - 18\).
+    \textbf{Answer: A}
+
+  \item Differentiate \(y = \sqrt[3]{x^2}(2x-x^2) = x^{2/3}(2x-x^2)\).
+    Expand: \(y = 2x^{2/3}x^1 - x^{2/3}x^2 = 2x^{2/3+1} - x^{2/3+2} = 2x^{5/3} - x^{8/3}\).
+    Differentiate: \(\dv{y}{x} = 2\left(\dfrac{5}{3}\right)x^{5/3-1} - \left(\dfrac{8}{3}\right)x^{8/3-1}\).
+    \(= \dfrac{10}{3}x^{2/3} - \dfrac{8}{3}x^{5/3}\).
+    \textbf{Answer: B}
+
+  \item Slope of tangent to \(y = 5x^2 - 3x + 5\) at \((1,6)\).
+    \(\dv{y}{x} = 10x - 3\).
+    At \(x=1\): slope \(= 10(1) - 3 = 7\).
+    (Check y-coordinate: \(y(1) = 5(1)^2-3(1)+5 = 5-3+5=7\). Point in question is \((1,6)\), my calculated \(y(1)=7\). There is a mismatch. Assuming the question implies x=1 for the curve \(y=5x^2-3x+5\), then point would be \((1,7)\). If the point \((1,6)\) must be used, it means it's not on the curve, and the question is ill-posed for a tangent *to the curve at that point*. Assuming it means "at \(x=1\) for the given curve":)
+    Slope is 7.
+    \textbf{Answer: B}
+
+  \item Derivative of \(y = 2x^2(2x-1)\) at \(x=-1\).
+    Expand: \(y = 4x^3 - 2x^2\).
+    \(\dv{y}{x} = 12x^2 - 4x\).
+    At \(x=-1\): \(\dv{y}{x} = 12(-1)^2 - 4(-1) = 12(1) + 4 = 12 + 4 = 16\).
+    \textbf{Answer: C}
+
+  \item Derivative of \(y = \ln(4x^3 - 2x)\).
+    Chain rule: Let \(u = 4x^3 - 2x\), \(\dv{u}{x} = 12x^2 - 2\).
+    \(y = \ln u\), \(\dv{y}{u} = \dfrac{1}{u}\).
+    \(\dv{y}{x} = \dfrac{1}{u} \cdot (12x^2-2) = \dfrac{12x^2-2}{4x^3-2x}\).
+    \textbf{Answer: D}
+
+  \item Derivative of \(y = e^x \sin x\). (Repeat of Q64's structure)
+    Product rule: \(u=e^x, u'=e^x\); \(v=\sin x, v'=\cos x\).
+    \(\dv{y}{x} = u'v + uv' = e^x\sin x + e^x\cos x = e^x(\sin x + \cos x)\).
+    \textbf{Answer: A}
+
+  \item Second derivative of \(y = 8x^3 - 3x^2 + 7x - 1\).
+    First derivative: \(\dv{y}{x} = 24x^2 - 6x + 7\).
+    Second derivative: \(\ddv{y}{x}{2} = \dv{}{x}(24x^2 - 6x + 7) = 48x - 6\).
+    \textbf{Answer: C}
+
+  \item For \(y = x^2 + 6x + 8\), find \(x\) where tangent is parallel to x-axis (slope=0).
+    \(\dv{y}{x} = 2x + 6\).
+    Set \(\dv{y}{x}=0\): \(2x + 6 = 0 \implies 2x = -6 \implies x = -3\).
+    \textbf{Answer: A}
+
+  \item Second derivative of \(y = x\sin x\).
+    First derivative (product rule: \(u=x, u'=1; v=\sin x, v'=\cos x\)):
+    \(\dv{y}{x} = (1)\sin x + (x)\cos x = \sin x + x\cos x\).
+    Second derivative (apply product rule to \(x\cos x\)):
+    \(\ddv{y}{x}{2} = \dv{}{x}(\sin x) + \dv{}{x}(x\cos x)\).
+    \(\dv{}{x}(x\cos x) = (1)\cos x + (x)(-\sin x) = \cos x - x\sin x\).
+    So, \(\ddv{y}{x}{2} = \cos x + (\cos x - x\sin x) = 2\cos x - x\sin x\).
+    \textbf{Answer: A}
+
+  \item Differentiate \(y = \dfrac{2x}{\sin x}\).
+    Quotient rule: \(u=2x, u'=2\); \(v=\sin x, v'=\cos x\).
+    \(\dv{y}{x} = \dfrac{(2)(\sin x) - (2x)(\cos x)}{(\sin x)^2} = \dfrac{2\sin x - 2x\cos x}{\sin^2 x}\).
+    Split fraction: \(\dfrac{2\sin x}{\sin^2 x} - \dfrac{2x\cos x}{\sin^2 x} = \dfrac{2}{\sin x} - 2x \dfrac{\cos x}{\sin x} \dfrac{1}{\sin x}\).
+    \(= 2\csc x - 2x\cot x \csc x = 2\csc x(1 - x\cot x)\).
+    \textbf{Answer: D}
+
+  \item Curve \(y = 2x^2 - 2x + 3\) has gradient 2. Find point \((x,y)\). (Repeat of Q25)
+    Gradient \(\dv{y}{x} = 4x - 2\).
+    Set gradient to 2: \(4x - 2 = 2 \implies 4x = 4 \implies x = 1\).
+    \(y = 2(1)^2 - 2(1) + 3 = 3\). Point is \((1,3)\).
+    \textbf{Answer: A}
+
+  \item Equation of tangent at \((2,0)\) to \(y = x^2 - 2x\).
+    Check point: \(y(2) = (2)^2 - 2(2) = 4 - 4 = 0\). Point is on curve.
+    Slope \(\dv{y}{x} = 2x - 2\).
+    At \(x=2\), slope \(m = 2(2) - 2 = 4 - 2 = 2\).
+    Equation: \(y - y_1 = m(x - x_1) \implies y - 0 = 2(x - 2)\).
+    \(y = 2x - 4\).
+    \textbf{Answer: A}
+
+  \item Differentiate \(y = 20x^{-4} + 9\).
+    \(\dv{y}{x} = 20(-4)x^{-4-1} + 0 = -80x^{-5}\).
+    \textbf{Answer: A}
+
+  \item Differentiate \(y = x^2 \ln x\).
+    Product rule: \(u=x^2, u'=2x\); \(v=\ln x, v'=1/x\).
+    \(\dv{y}{x} = (2x)(\ln x) + (x^2)(1/x) = 2x\ln x + x = x(2\ln x + 1)\).
+    \textbf{Answer: A}
+
+  \item If \(f(x) = 3x^3 + 4x^2 + x - 8\), value of \(f(-2)\). (Not differentiation, direct substitution)
+    \(f(-2) = 3(-2)^3 + 4(-2)^2 + (-2) - 8\).
+    \(= 3(-8) + 4(4) - 2 - 8 = -24 + 16 - 2 - 8 = -8 - 2 - 8 = -18\).
+    \textbf{Answer: C}
+
+  \item Derivative of \(y = \sqrt{1-x^2} = (1-x^2)^{1/2}\).
+    Chain rule: Let \(u=1-x^2, u'=-2x\). \(y=u^{1/2}, \dv{y}{u}=\frac{1}{2}u^{-1/2}\).
+    \(\dv{y}{x} = \frac{1}{2}(1-x^2)^{-1/2}(-2x) = \dfrac{-x}{\sqrt{1-x^2}}\).
+    \textbf{Answer: B}
+
+  \item If \(y = \arctan(x)\) (or \(\tan^{-1}x\)), find \(\dv{y}{x}\). Standard derivative.
+    \(\dv{y}{x} = \dfrac{1}{1+x^2}\).
+    \textbf{Answer: A}
+
+  \item Differentiate \(y = \dfrac{e^x}{x}\).
+    Quotient rule: \(u=e^x, u'=e^x\); \(v=x, v'=1\).
+    \(\dv{y}{x} = \dfrac{e^x(x) - e^x(1)}{x^2} = \dfrac{e^x(x-1)}{x^2}\).
+    \textbf{Answer: A}
+
+  \item Slope of normal to \(y = x^2 - 5x + 2\) at \(x=1\).
+    Slope of tangent \(\dv{y}{x} = 2x - 5\).
+    At \(x=1\), slope of tangent \(m_t = 2(1) - 5 = -3\).
+    Slope of normal \(m_n = -1/m_t = -1/(-3) = 1/3\).
+    \textbf{Answer: B}
+
+  \item Find \(\dv{y}{x}\) if \(y = (x^2+1)^3\).
+    Chain rule: Let \(u=x^2+1, u'=2x\). \(y=u^3, \dv{y}{u}=3u^2\).
+    \(\dv{y}{x} = 3(x^2+1)^2(2x) = 6x(x^2+1)^2\).
+    \textbf{Answer: B}
+
+  \item Given \(f(x) = \dfrac{1}{x} = x^{-1}\), find \(f''(x)\).
+    \(f'(x) = -1x^{-2} = -x^{-2}\).
+    \(f''(x) = -(-2)x^{-3} = 2x^{-3} = \dfrac{2}{x^3}\).
+    \textbf{Answer: C}
+
+  \item Function \(f(x) = x^3 - 6x^2 + 5\). Interval where decreasing (\(f'(x) < 0\)).
+    \(f'(x) = 3x^2 - 12x = 3x(x-4)\).
+    We need \(3x(x-4) < 0\). Critical points at \(x=0, x=4\).
+    Test intervals:
+    If \(x<0\) (e.g., \(x=-1\)): \(3(-1)(-1-4) = (-3)(-5) = 15 > 0\).
+    If \(0<x<4\) (e.g., \(x=1\)): \(3(1)(1-4) = (3)(-3) = -9 < 0\). (Decreasing)
+    If \(x>4\) (e.g., \(x=5\)): \(3(5)(5-4) = (15)(1) = 15 > 0\).
+    Decreasing for \(0 < x < 4\).
+    \textbf{Answer: B}
+
+  \item Derivative of \(y = \sin(\sqrt{x})\).
+    Chain rule: Let \(u=\sqrt{x}=x^{1/2}, u'=\frac{1}{2}x^{-1/2} = \frac{1}{2\sqrt{x}}\).
+    \(y=\sin u, \dv{y}{u}=\cos u\).
+    \(\dv{y}{x} = \cos(\sqrt{x}) \cdot \dfrac{1}{2\sqrt{x}} = \dfrac{\cos(\sqrt{x})}{2\sqrt{x}}\).
+    \textbf{Answer: A}
+
+  \item If \(y = \sec x\), find \(\dv{y}{x}\). Standard derivative.
+    \(\dv{y}{x} = \sec x \tan x\).
+    \textbf{Answer: B}
+
+  \item Gradient of \(y = \ln(x^2)\) at \(x=2\).
+    \(y = \ln(x^2) = 2\ln x\) (for \(x>0\)).
+    \(\dv{y}{x} = 2 \cdot \dfrac{1}{x} = \dfrac{2}{x}\).
+    At \(x=2\), gradient \(= \dfrac{2}{2} = 1\).
+    \textbf{Answer: B}
+
+  \item Position \(s(t) = t^3 - 3t^2 + 3t + 7\). Acceleration when velocity is zero.
+    Velocity \(v(t) = s'(t) = 3t^2 - 6t + 3\).
+    Acceleration \(a(t) = v'(t) = 6t - 6\).
+    Set \(v(t)=0\): \(3t^2 - 6t + 3 = 0 \implies 3(t^2-2t+1)=0 \implies 3(t-1)^2=0 \implies t=1\).
+    Acceleration at \(t=1\): \(a(1) = 6(1) - 6 = 0\).
+    \textbf{Answer: A}
+
+  \item Differentiate \(y = 5^{2x}\).
+    Chain rule (\(\dv{}{x}a^u = a^u \ln a \cdot \dv{u}{x}\)): Let \(u=2x, u'=2\).
+    \(\dv{y}{x} = 5^{2x} (\ln 5) (2) = 2 \cdot 5^{2x} \ln 5\).
+    \textbf{Answer: B}
+
+  \item Critical points of \(f(x) = x + \dfrac{1}{x} = x + x^{-1}\).
+    \(f'(x) = 1 - x^{-2} = 1 - \dfrac{1}{x^2}\).
+    Set \(f'(x)=0\): \(1 - \dfrac{1}{x^2} = 0 \implies 1 = \dfrac{1}{x^2} \implies x^2=1 \implies x = \pm 1\).
+    (Note: \(f(x)\) and \(f'(x)\) are undefined at \(x=0\), but \(x=0\) is not in the domain of \(f\).)
+    \textbf{Answer: B}
+
+  \item If \(y = \cos^2(3x) = (\cos(3x))^2\).
+    Chain rule: Outermost is \(u^2\), middle is \(\cos v\), innermost is \(3x\).
+    \(\dv{y}{x} = 2(\cos(3x))^1 \cdot \dv{}{dx}(\cos(3x))\).
+    \(\dv{}{dx}(\cos(3x)) = -\sin(3x) \cdot \dv{}{dx}(3x) = -\sin(3x) \cdot 3 = -3\sin(3x)\).
+    So, \(\dv{y}{x} = 2\cos(3x) \cdot (-3\sin(3x)) = -6\sin(3x)\cos(3x)\).
+    Using \(2\sin A \cos A = \sin 2A\), this is \(-3(2\sin(3x)\cos(3x)) = -3\sin(2 \cdot 3x) = -3\sin(6x)\).
+    \textbf{Answer: A}
+
+  \item Derivative of \(y = \arcsin(2x)\).
+    Chain rule (\(\dv{}{x}\arcsin u = \frac{1}{\sqrt{1-u^2}}\dv{u}{x}\)): Let \(u=2x, u'=2\).
+    \(\dv{y}{x} = \dfrac{1}{\sqrt{1-(2x)^2}} \cdot 2 = \dfrac{2}{\sqrt{1-4x^2}}\).
+    \textbf{Answer: B}
+
+  \item Equation of tangent to \(y=e^x\) at \(x=0\).
+    Point: At \(x=0, y=e^0=1\). Point is \((0,1)\).
+    Slope: \(\dv{y}{x} = e^x\). At \(x=0\), slope \(m=e^0=1\).
+    Equation: \(y-1 = 1(x-0) \implies y-1=x \implies y=x+1\).
+    \textbf{Answer: A}
+
+  \item If \(f(x) = (x+1)^2(x-1)\), find \(f'(0)\).
+    Product rule: \(u=(x+1)^2, u'=2(x+1)(1)=2(x+1)\); \(v=x-1, v'=1\).
+    \(f'(x) = 2(x+1)(x-1) + (x+1)^2(1)\).
+    At \(x=0\): \(f'(0) = 2(0+1)(0-1) + (0+1)^2(1) = 2(1)(-1) + (1)^2(1) = -2 + 1 = -1\).
+    \textbf{Answer: A}
+
+  \item Differentiate \(y = \log_{10}(x)\). Standard derivative.
+    \(\dv{y}{x} = \dfrac{1}{x \ln 10}\) \ (\(\ln 10\) is the natural logarithm of 10).
+    \textbf{Answer: C}
+
+  \item Curve \(y = x^2 e^{-x}\) \ x-coordinates of turning points (\(\dv{y}{x}=0\)).
+    Product rule: \(u=x^2, u'=2x\); \(v=e^{-x}, v'=-e^{-x}\).
+    \(\dv{y}{x} = (2x)(e^{-x}) + (x^2)(-e^{-x}) = 2xe^{-x} - x^2e^{-x} = xe^{-x}(2-x)\).
+    Set \(\dv{y}{x}=0\): \(xe^{-x}(2-x)=0\).
+    Since \(e^{-x}\) is never 0, then \(x=0\) or \(2-x=0 \implies x=2\).
+    \textbf{Answer: B}
+
+  \item If \(y = \dfrac{\sin x}{1+\cos x}\)
+    Quotient rule: \(u=\sin x, u'=\cos x\); \(v=1+\cos x, v'=-\sin x\).
+    \(\dv{y}{x} = \dfrac{(\cos x)(1+\cos x) - (\sin x)(-\sin x)}{(1+\cos x)^2} = \dfrac{\cos x + \cos^2 x + \sin^2 x}{(1+\cos x)^2}\).
+    Since \(\cos^2 x + \sin^2 x = 1\):
+    \(\dv{y}{x} = \dfrac{\cos x + 1}{(1+\cos x)^2} = \dfrac{1}{1+\cos x}\) for \(1+\cos x \neq 0\).
+    \textbf{Answer: A}
+
+  \item Derivative of \(y = \sqrt{x^2+a^2} = (x^2+a^2)^{1/2}\).
+    Chain rule: Let \(u=x^2+a^2, u'=2x\) (since \(a\) is constant, \(\dv{}{x}(a^2)=0\)).
+    \(y=u^{1/2}, \dv{y}{u}=\frac{1}{2}u^{-1/2}\).
+    \(\dv{y}{x} = \frac{1}{2}(x^2+a^2)^{-1/2}(2x) = \dfrac{x}{\sqrt{x^2+a^2}}\).
+    \textbf{Answer: A}
+
+  \item Minimum value of \(f(x) = x^2 + \dfrac{16}{x}\) for \(x>0\).
+    \(f(x) = x^2 + 16x^{-1}\).
+    \(f'(x) = 2x - 16x^{-2} = 2x - \dfrac{16}{x^2}\).
+    Set \(f'(x)=0\): \(2x - \dfrac{16}{x^2} = 0 \implies 2x = \dfrac{16}{x^2} \implies 2x^3 = 16 \implies x^3=8 \implies x=2\). (Valid since \(x>0\)).
+    \(f''(x) = 2 - 16(-2)x^{-3} = 2 + \dfrac{32}{x^3}\).
+    At \(x=2, f''(2) = 2 + \dfrac{32}{8} = 2+4=6 > 0\), so minimum.
+    Value: \(f(2) = (2)^2 + \dfrac{16}{2} = 4 + 8 = 12\).
+    \textbf{Answer: B}
+
+  \item Differentiate \(y = x^x\). Use logarithmic differentiation.
+    \(\ln y = \ln(x^x) \implies \ln y = x \ln x\).
+    Differentiate both sides wrt \(x\):
+    \(\dv{}{x}(\ln y) = \dv{}{x}(x \ln x)\).
+    \(\dfrac{1}{y}\dv{y}{x} = (1)(\ln x) + (x)\left(\dfrac{1}{x}\right)\) (Product rule for RHS).
+    \(\dfrac{1}{y}\dv{y}{x} = \ln x + 1\).
+    \(\dv{y}{x} = y(\ln x + 1) = x^x(1 + \ln x)\).
+    \textbf{Answer: C}
+
+  \item If \(y = \dfrac{1}{x^n} = x^{-n}\).
+    \(\dv{y}{x} = -n x^{-n-1} = -n x^{-(n+1)} = \dfrac{-n}{x^{n+1}}\).
+    \textbf{Answer: C}
+
+  \item Slope of tangent to \(y = \sqrt{x}\) at \(x=4\).
+    \(y = x^{1/2}\) \ \(\dv{y}{x} = \dfrac{1}{2}x^{-1/2} = \dfrac{1}{2\sqrt{x}}\).
+    At \(x=4\), slope \(m = \dfrac{1}{2\sqrt{4}} = \dfrac{1}{2 \cdot 2} = \dfrac{1}{4}\).
+    \textbf{Answer: A}
+
+  \item Second derivative of \(y = \ln x\).
+    First derivative: \(\dv{y}{x} = \dfrac{1}{x} = x^{-1}\).
+    Second derivative: \(\ddv{y}{x} = -1x^{-2} = -\dfrac{1}{x^2}\).
+    \textbf{Answer: B}
+
+  \item Radius of sphere \(\dv{r}{t} = 2 \text{ cm/s}\). Find \(\dv{V}{t}\) when \(r=3 \text{ cm}\). \(V=\frac{4}{3}\pi r^3\).
+    \(\dv{V}{r} = 4\pi r^2\).
+    \(\dv{V}{t} = \dv{V}{r} \cdot \dv{r}{t} = (4\pi r^2)(2) = 8\pi r^2\).
+    When \(r=3\): \(\dv{V}{t} = 8\pi (3)^2 = 8\pi(9) = 72\pi \text{ cm}^3/\text{s}\).
+    \textbf{Answer: C}
+
+  \item Function \(y = |x-2|\) is not differentiable at?
+    The absolute value function \(f(x)=|u|\) is not differentiable where \(u=0\).
+    Here \(u=x-2\). So, not differentiable when \(x-2=0 \implies x=2\).
+    At \(x=2\), the graph has a sharp corner.
+    \textbf{Answer: C}
+
+  \item Differentiate \(y = \tan(3x+2)\).
+    Chain rule: Let \(u=3x+2, u'=3\) \ \(y=\tan u, \dv{y}{u}=\sec^2 u\).
+    \(\dv{y}{x} = (\sec^2 u)(3) = 3\sec^2(3x+2)\).
+    \textbf{Answer: A}
+
 \end{enumerate}

@@ -19,3 +19,6 @@
 *.xml
 *.gz
 *.bcf
+*.fdb
+*.fdb_latexmk
+*.fls

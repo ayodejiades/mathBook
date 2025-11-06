@@ -1,4 +1,4 @@
-\documentclass[a4paper]{book}
+\documentclass[a4paper,openany]{book}
 
 % --- FONT AND ENCODING  ---
 \usepackage[T1]{fontenc} 
@@ -6,6 +6,7 @@
 
 % --- PAGE LAYOUT AND GEOMETRY ---
 \usepackage[left=.7in, right=.7in, top=1.2in, bottom=1in]{geometry}
+\setlength{\columnsep}{0.3in}
 
 % --- HEADER AND FOOTER ---
 \usepackage{fancyhdr}
@@ -14,54 +15,40 @@
 \fancyhead[LE]{\nouppercase{\leftmark}} % Chapter name on even pages (left)
 \fancyhead[RO]{\nouppercase{\rightmark}} % Section name on odd pages (right)
 \fancyfoot[C]{\thepage} % Page number in the center of the footer
-\renewcommand{\headrulewidth}{0.4pt} % Rule under the header
-\renewcommand{\footrulewidth}{0pt} % No rule over the footer
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
 \fancypagestyle{plain}{%
-  \fancyhf{}% Clear header/footer for plain pages (e.g., chapter starts)
+  \fancyhf{}%
   \fancyfoot[C]{\thepage}%
   \renewcommand{\headrulewidth}{0pt}%
   \renewcommand{\footrulewidth}{0pt}%
 }
 
-% --- MATHEMATICS PACKAGES (Base and Standard Symbols) ---
-\usepackage{amsmath}
-\usepackage{amsfonts} 
-\usepackage{amssymb}  
-\usepackage{amsthm}  
+% --- MATHEMATICS PACKAGES ---
+\usepackage{amsmath,amsfonts,amssymb,amsthm}
 
-% --- FONT PACKAGES (Text and Math - load after ams packages) ---
-\usepackage{newtxtext, newtxmath} % Times-like font for text and math
-
+% --- FONT PACKAGES ---
+\usepackage{newtxtext,newtxmath}
 
 % --- CUSTOM DERIVATIVE COMMANDS ---
-% For first derivative: \dv{y}{x}
 \newcommand{\dv}[2]{\frac{\mathrm{d}#1}{\mathrm{d}#2}}
-
-% For second derivative: \ddv{y}{x} (will typeset d^2y / dx^2)
-% Note: This assumes the second argument 'x' is a single variable.
-% If you need d^2y / d(t^2)^2 (which is unusual), you'd need a different command or pass {{t^2}}
 \newcommand{\ddv}[2]{\frac{\mathrm{d}^2 #1}{\mathrm{d} #2^2}}
-
-% For partial derivatives (optional, but good to have if you plan to use them)
-% \pdv{f}{x}
 \newcommand{\pdv}[2]{\frac{\partial #1}{\partial #2}}
-% \pddv{f}{x} for d^2f/dx^2 (partial)
 \newcommand{\pddv}[2]{\frac{\partial^2 #1}{\partial #2^2}}
-% \pddv{f}{x}{y} for d^2f/(dx dy) (partial)
 \newcommand{\pddvxdy}[3]{\frac{\partial^2 #1}{\partial #2 \partial #3}}
 
-% --- MATHEMATICS UTILITIES (Load after font and core math setup) ---
-\usepackage{siunitx}  % For SI units
+% --- MATHEMATICS UTILITIES ---
+\usepackage{siunitx}  
 \AtBeginDocument{%
-  \RenewCommandCopy\qty\SI % Makes \qty from physics behave like \SI from siunitx for {value}{unit}
+  \RenewCommandCopy\qty\SI
 }
 
 % --- LISTS AND TABLES ---
-\usepackage{multicol} % For multi-column layout
+\usepackage{multicol} 
 \usepackage{enumitem}
 \setlist[enumerate]{itemsep=3pt, topsep=5pt, partopsep=2pt}
-\usepackage{booktabs} % For professional-looking tables
-\usepackage{cancel}   % For striking out terms in math
+\usepackage{booktabs} 
+\usepackage{cancel}   
 
 % --- GRAPHICS AND DIAGRAMS ---
 \usepackage{graphicx}
@@ -82,11 +69,11 @@
     urlcolor=blue,
     citecolor=purple,
     pdftitle={Acing UTME Maths},
-    pdfauthor={Ayodeji Adesegun and Chimobi Nwafor},
+    pdfauthor={Ayodeji Adesegun, Chimobi Nwafor},
     bookmarksopen=true,
     bookmarksnumbered=true
 }
-\usepackage{cleveref} % Load after hyperref
+\usepackage{cleveref} 
 
 % --- BIBLIOGRAPHY ---
 \usepackage{biblatex}
@@ -94,6 +81,8 @@
 
 % --- TITLE PAGE ---
 \usepackage{titling}
+
+\let\cleardoublepage\clearpage
 
 % --- DOCUMENT START ---
 \begin{document}
@@ -109,7 +98,9 @@
 \Large\textbf{By}\\
 \vspace{0.5cm}
 \Large\textbf{Ayodeji Adesegun and Chimobi Nwafor}\\
-\vspace*{\fill}
+\vspace*{2cm}
+\Large\textbf{Working Draft}\\
+\vspace*{3cm}
 \Large{\today}\\
 \vspace*{\fill}
 \end{titlingpage}
@@ -139,9 +130,8 @@ This book was meticulously prepared using the \LaTeX\ document processing system
 \item[\href{https://linkedin.com/in/jeremaih-nwafor}{\textbf{Chimobi Nwafor}}:] He is a software engineer trainee at INITS.
 \end{description}
 
-\clearpage
+\pagebreak
 \tableofcontents
-\clearpage
 
 \chapter*{Preface}
 Welcome to ``Acing UTME Maths'', a comprehensive guide designed to help you conquer the upcoming UTME Maths exam. This book provides you with a wealth of past questions, detailed solutions, and insightful strategies to enhance your understanding and preparation.\\
@@ -156,36 +146,33 @@ We are confident that ``Acing UTME Maths'' will be your ultimate companion on yo
 
 Best of luck!\\
 
-
 Ayodeji Adesegun and Chimobi Nwafor
-\clearpage
 \end{frontmatter}
 
 % --- MAINMATTER ---
 \mainmatter
 \pagestyle{fancy}
 
-% Chapter organization
-\include{number}
-\include{fraction}
-\include{algebra}
-\include{indices}
-\include{surds}
-\include{logarithms}
-\include{geometry}
-\include{coordinate}
-\include{differentiation}
-\include{integration}
-\include{combinatorics}
-\include{probability}
-\include{statistics}
-\include{things}
+% Chapter organization (switched to \input for continuous flow)
+\input{number}
+\input{fraction}
+\input{algebra}
+\input{indices}
+\input{surds}
+\input{logarithms}
+\input{geometry}
+\input{coordinate}
+\input{differentiation}
+\input{integration}
+\input{combinatorics}
+\input{probability}
+\input{statistics}
+\input{things}
 
 % --- BACKMATTER ---
 \begin{backmatter}
 \pagestyle{plain}
-
-% \printbibliography % If using biblatex
+% \printbibliography
 \end{backmatter}
 
 \end{document}

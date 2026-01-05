@@ -1,5 +1,26 @@
 \documentclass[a4paper,openany]{book}
 
+% --- LATEX VERSION FIX ---
+\makeatletter
+\providecommand{\IfPackageLoadedT}[2]{\@ifpackageloaded{#1}{#2}{}}
+\makeatother
+
+\ExplSyntaxOn
+\cs_if_exist:NF \prop_gput_if_not_in:Nnn {
+  \cs_new:Npn \prop_gput_if_not_in:Nnn #1 #2 #3 {
+    \prop_if_in:NnF #1 { #2 } { \prop_gput:Nnn #1 { #2 } { #3 } }
+  }
+}
+\cs_if_exist:NF \prop_gput_if_not_in:NnV {
+  \cs_if_exist:NF \prop_gput:NnV {
+    \cs_generate_variant:Nn \prop_gput:Nnn { NnV }
+  }
+  \cs_new:Npn \prop_gput_if_not_in:NnV #1 #2 #3 {
+    \prop_if_in:NnF #1 { #2 } { \prop_gput:NnV #1 { #2 } #3 }
+  }
+}
+\ExplSyntaxOff
+
 % --- FONT AND ENCODING  ---
 \usepackage[T1]{fontenc} 
 \usepackage{microtype} 
@@ -26,18 +47,6 @@
 
 % --- MATHEMATICS PACKAGES ---
 \usepackage{amsmath,amsfonts,amssymb,amsthm}
-
-% --- LATEX VERSION FIX ---
-\ExplSyntaxOn
-\cs_if_exist:NF \prop_gput_if_not_in:NnV {
-  \cs_if_exist:NF \prop_gput:NnV {
-    \cs_generate_variant:Nn \prop_gput:Nnn { NnV }
-  }
-  \cs_new:Npn \prop_gput_if_not_in:NnV #1 #2 #3 {
-    \prop_if_in:NnF #1 { #2 } { \prop_gput:NnV #1 { #2 } #3 }
-  }
-}
-\ExplSyntaxOff
 
 % --- FONT PACKAGES ---
 \usepackage{newtxtext,newtxmath}
@@ -73,6 +82,17 @@
 \renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
 \renewcommand{\cftbeforechapskip}{10pt}
 
+\usepackage{cleveref} 
+
+% --- BIBLIOGRAPHY ---
+\usepackage{biblatex}
+% \addbibresource{your_bibliography_file.bib}
+
+% --- TITLE PAGE ---
+\usepackage{titling}
+
+\let\cleardoublepage\clearpage
+
 % --- HYPERLINKS AND REFERENCING ---
 \usepackage{hyperref}
 \hypersetup{
@@ -85,16 +105,6 @@
     bookmarksopen=true,
     bookmarksnumbered=true
 }
-\usepackage{cleveref} 
-
-% --- BIBLIOGRAPHY ---
-\usepackage{biblatex}
-% \addbibresource{your_bibliography_file.bib}
-
-% --- TITLE PAGE ---
-\usepackage{titling}
-
-\let\cleardoublepage\clearpage
 
 % --- DOCUMENT START ---
 \begin{document}
@@ -111,9 +121,8 @@
 \vspace{0.5cm}
 \Large\textbf{Ayodeji Adesegun and Chimobi Nwafor}\\
 \vspace*{2cm}
-\Large\textbf{Working Draft}\\
 \vspace*{3cm}
-\Large{\today}\\
+\Large{December 2025}\\
 \vspace*{\fill}
 \end{titlingpage}
 

@@ -27,6 +27,18 @@
 % --- MATHEMATICS PACKAGES ---
 \usepackage{amsmath,amsfonts,amssymb,amsthm}
 
+% --- LATEX VERSION FIX ---
+\ExplSyntaxOn
+\cs_if_exist:NF \prop_gput_if_not_in:NnV {
+  \cs_if_exist:NF \prop_gput:NnV {
+    \cs_generate_variant:Nn \prop_gput:Nnn { NnV }
+  }
+  \cs_new:Npn \prop_gput_if_not_in:NnV #1 #2 #3 {
+    \prop_if_in:NnF #1 { #2 } { \prop_gput:NnV #1 { #2 } #3 }
+  }
+}
+\ExplSyntaxOff
+
 % --- FONT PACKAGES ---
 \usepackage{newtxtext,newtxmath}
 
@@ -160,7 +172,10 @@ Ayodeji Adesegun and Chimobi Nwafor
 \input{indices}
 \input{surds}
 \input{logarithms}
-\input{geometry}
+\input{circlegeometry}
+\input{mensuration}
+\input{loci}
+\input{trigonometry}
 \input{coordinate}
 \input{differentiation}
 \input{integration}
